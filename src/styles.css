@@ -1,0 +1,45 @@
+.app {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bbf58a6-1e85-4cfe-83fd-02df6f482b45/de8nlib-6bed7b3d-3d7e-4763-bb60-18f5ee0127fd.png/v1/fill/w_1024,h_652,q_80,strp/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvNWJiZjU4YTYtMWU4NS00Y2ZlLTgzZmQtMDJkZjZmNDgyYjQ1XC9kZThubGliLTZiZWQ3YjNkLTNkN2UtNDc2My1iYjYwLTE4ZjVlZTAxMjdmZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZVgNGi61AOkC068E-wphWmAUW8amj0MiJySqDcMCVh8');
+    background-size: cover;
+    min-height: 100vh;
+}
+.nav-bar {
+    
+    background-image: url('https://i.ebayimg.com/images/g/UOUAAOSwoDRjYjNl/s-l1600.jpg');
+    background-size: cover;
+    width: 1820px;
+    height: 20px;
+    background-position: center;
+    font-size: 25px;
+    color: blue;
+    border: 2px solid rgba(219, 217, 217, 0.726);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    border-radius: 17px;
+    
+   
+    
+    
+}
+.nav-bar:visited {
+    color: aliceblue;
+}
+
+
+.nav-bar-a {
+    padding: 10px;
+}
+.nav-bar-b {
+    padding: 10px;
+}
+.nav-bar-c {
+    padding: 10px;
+}
+.nav-bar-d {
+    padding: 10px;
+}
+.home-div {
+  
+}

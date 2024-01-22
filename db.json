@@ -1,0 +1,1515 @@
+{
+  "pokemons": [
+      {
+          "id": 1,
+          "name": "Bulbasaur",
+          "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891758-001bulbasaur.png",
+          "type": "Grass/Poison",
+          "base_experience": 64,
+          "abilities": [
+              "Overgrow",
+              "Chlorophyll"
+          ]
+      },
+      {
+          "id": 2,
+          "name": "Ivysaur",
+          "type": "Grass/Poison",
+          "base_experience": 142,
+          "abilities": [
+              "Overgrow",
+              "Chlorophyll"
+          ]
+      },
+      {
+          "id": 3,
+          "name": "Venusaur",
+          "type": "Grass/Poison",
+          "base_experience": 236,
+          "abilities": [
+              "Overgrow",
+              "Chlorophyll"
+          ]
+      },
+      {
+          "id": 4,
+          "name": "Charmander",
+          "type": "Fire",
+          "base_experience": 62,
+          "abilities": [
+              "Blaze",
+              null
+          ]
+      },
+      {
+          "id": 5,
+          "name": "Charmeleon",
+          "type": "Fire",
+          "base_experience": 142,
+          "abilities": [
+              "Blaze",
+              null
+          ]
+      },
+      {
+          "id": 6,
+          "name": "Charizard",
+          "type": "Fire/Flying",
+          "base_experience": 240,
+          "abilities": [
+              "Blaze",
+              null
+          ]
+      },
+      {
+          "id": 7,
+          "name": "Squirtle",
+          "type": "Water",
+          "base_experience": 63,
+          "abilities": [
+              "Torrent",
+              "Rain Dish"
+          ]
+      },
+      {
+          "id": 8,
+          "name": "Wartortle",
+          "type": "Water",
+          "base_experience": 142,
+          "abilities": [
+              "Torrent",
+              "Rain Dish"
+          ]
+      },
+      {
+          "id": 9,
+          "name": "Blastoise",
+          "type": "Water",
+          "base_experience": 239,
+          "abilities": [
+              "Torrent",
+              "Rain Dish"
+          ]
+      },
+      {
+          "id": 10,
+          "name": "Caterpie",
+          "type": "Bug",
+          "base_experience": 39,
+          "abilities": [
+              "Shield Dust",
+              "Run Away"
+          ]
+      },
+      {
+          "id": 11,
+          "name": "Metapod",
+          "type": "Bug",
+          "base_experience": 72,
+          "abilities": [
+              "Shed Skin",
+              null
+          ]
+      },
+      {
+          "id": 12,
+          "name": "Butterfree",
+          "type": "Bug/Flying",
+          "base_experience": 178,
+          "abilities": [
+              "Compound Eyes",
+              "Tinted Lens"
+          ]
+      },
+      {
+          "id": 13,
+          "name": "Weedle",
+          "type": "Bug/Poison",
+          "base_experience": 39,
+          "abilities": [
+              "Shield Dust",
+              "Run Away"
+          ]
+      },
+      {
+          "id": 14,
+          "name": "Kakuna",
+          "type": "Bug/Poison",
+          "base_experience": 72,
+          "abilities": [
+              "Shed Skin",
+              null
+          ]
+      },
+      {
+          "id": 15,
+          "name": "Beedrill",
+          "type": "Bug/Poison",
+          "base_experience": 178,
+          "abilities": [
+              "Swarm",
+              "Sniper"
+          ]
+      },
+      {
+          "id": 16,
+          "name": "Pidgey",
+          "type": "Normal/Flying",
+          "base_experience": 50,
+          "abilities": [
+              "Keen Eye",
+              "Tangled Feet"
+          ]
+      },
+      {
+          "id": 17,
+          "name": "Pidgeotto",
+          "type": "Normal/Flying",
+          "base_experience": 122,
+          "abilities": [
+              "Keen Eye",
+              "Tangled Feet"
+          ]
+      },
+      {
+          "id": 18,
+          "name": "Pidgeot",
+          "type": "Normal/Flying",
+          "base_experience": 239,
+          "abilities": [
+              "Keen Eye",
+              "Tangled Feet"
+          ]
+      },
+      {
+          "id": 19,
+          "name": "Rattata",
+          "type": "Normal",
+          "base_experience": 51,
+          "abilities": [
+              "Run Away",
+              "Guts"
+          ]
+      },
+      {
+          "id": 20,
+          "name": "Raticate",
+          "type": "Normal",
+          "base_experience": 145,
+          "abilities": [
+              "Run Away",
+              "Guts"
+          ]
+      },
+      {
+          "id": 21,
+          "name": "Spearow",
+          "type": "Normal/Flying",
+          "base_experience": 52,
+          "abilities": [
+              "Keen Eye",
+              "Sniper"
+          ]
+      },
+      {
+          "id": 22,
+          "name": "Fearow",
+          "type": "Normal/Flying",
+          "base_experience": 155,
+          "abilities": [
+              "Keen Eye",
+              "Sniper"
+          ]
+      },
+      {
+          "id": 23,
+          "name": "Ekans",
+          "type": "Poison",
+          "base_experience": 58,
+          "abilities": [
+              "Intimidate",
+              "Shed Skin"
+          ]
+      },
+      {
+          "id": 24,
+          "name": "Arbok",
+          "type": "Poison",
+          "base_experience": 157,
+          "abilities": [
+              "Intimidate",
+              "Shed Skin"
+          ]
+      },
+      {
+          "id": 25,
+          "name": "Pikachu",
+          "type": "Electric",
+          "base_experience": 112,
+          "abilities": [
+              "Static",
+              null
+          ]
+      },
+      {
+          "id": 26,
+          "name": "Raichu",
+          "type": "Electric",
+          "base_experience": 218,
+          "abilities": [
+              "Static",
+              null
+          ]
+      },
+      {
+          "id": 27,
+          "name": "Sandshrew",
+          "type": "Ground",
+          "base_experience": 60,
+          "abilities": [
+              "Sand Veil",
+              "Sand Rush"
+          ]
+      },
+      {
+          "id": 28,
+          "name": "Sandslash",
+          "type": "Ground",
+          "base_experience": 158,
+          "abilities": [
+              "Sand Veil",
+              "Sand Rush"
+          ]
+      },
+      {
+          "id": 29,
+          "name": "Nidoran♀",
+          "type": "Poison",
+          "base_experience": 55,
+          "abilities": [
+              "Poison Point",
+              "Rivalry"
+          ]
+      },
+      {
+          "id": 30,
+          "name": "Nidorina",
+          "type": "Poison",
+          "base_experience": 128,
+          "abilities": [
+              "Poison Point",
+              "Rivalry"
+          ]
+      },
+      {
+          "id": 31,
+          "name": "Nidoqueen",
+          "type": "Poison/Ground",
+          "base_experience": 227,
+          "abilities": [
+              "Poison Point",
+              "Rivalry"
+          ]
+      },
+      {
+          "id": 32,
+          "name": "Nidoran♂",
+          "type": "Poison",
+          "base_experience": 55,
+          "abilities": [
+              "Poison Point",
+              "Rivalry"
+          ]
+      },
+      {
+          "id": 33,
+          "name": "Nidorino",
+          "type": "Poison",
+          "base_experience": 128,
+          "abilities": [
+              "Poison Point",
+              "Rivalry"
+          ]
+      },
+      {
+          "id": 34,
+          "name": "Nidoking",
+          "type": "Poison/Ground",
+          "base_experience": 227,
+          "abilities": [
+              "Poison Point",
+              "Rivalry"
+          ]
+      },
+      {
+          "id": 35,
+          "name": "Clefairy",
+          "type": "Fairy",
+          "base_experience": 68,
+          "abilities": [
+              "Cute Charm",
+              "Magic Guard"
+          ]
+      },
+      {
+          "id": 36,
+          "name": "Clefable",
+          "type": "Fairy",
+          "base_experience": 129,
+          "abilities": [
+              "Cute Charm",
+              "Magic Guard"
+          ]
+      },
+      {
+          "id": 37,
+          "name": "Vulpix",
+          "type": "Fire",
+          "base_experience": 63,
+          "abilities": [
+              "Flash Fire",
+              "Drought"
+          ]
+      },
+      {
+          "id": 38,
+          "name": "Ninetales",
+          "type": "Fire",
+          "base_experience": 178,
+          "abilities": [
+              "Flash Fire",
+              "Drought"
+          ]
+      },
+      {
+          "id": 39,
+          "name": "Jigglypuff",
+          "type": "Normal/Fairy",
+          "base_experience": 95,
+          "abilities": [
+              "Cute Charm",
+              "Competitive"
+          ]
+      },
+      {
+          "id": 40,
+          "name": "Wigglytuff",
+          "type": "Normal/Fairy",
+          "base_experience": 196,
+          "abilities": [
+              "Cute Charm",
+              "Competitive"
+          ]
+      },
+      {
+          "id": 41,
+          "name": "Zubat",
+          "type": "Poison/Flying",
+          "base_experience": 49,
+          "abilities": [
+              "Inner Focus",
+              "Infiltrator"
+          ]
+      },
+      {
+          "id": 42,
+          "name": "Golbat",
+          "type": "Poison/Flying",
+          "base_experience": 159,
+          "abilities": [
+              "Inner Focus",
+              "Infiltrator"
+          ]
+      },
+      {
+          "id": 43,
+          "name": "Oddish",
+          "type": "Grass/Poison",
+          "base_experience": 64,
+          "abilities": [
+              "Chlorophyll",
+              "Run Away"
+          ]
+      },
+      {
+          "id": 44,
+          "name": "Gloom",
+          "type": "Grass/Poison",
+          "base_experience": 138,
+          "abilities": [
+              "Chlorophyll",
+              "Stench"
+          ]
+      },
+      {
+          "id": 45,
+          "name": "Vileplume",
+          "type": "Grass/Poison",
+          "base_experience": 221,
+          "abilities": [
+              "Chlorophyll",
+              "Effect Spore"
+          ]
+      },
+      {
+          "id": 46,
+          "name": "Paras",
+          "type": "Bug/Grass",
+          "base_experience": 57,
+          "abilities": [
+              "Effect Spore",
+              "Dry Skin"
+          ]
+      },
+      {
+          "id": 47,
+          "name": "Parasect",
+          "type": "Bug/Grass",
+          "base_experience": 142,
+          "abilities": [
+              "Effect Spore",
+              "Dry Skin"
+          ]
+      },
+      {
+          "id": 48,
+          "name": "Venonat",
+          "type": "Bug/Poison",
+          "base_experience": 61,
+          "abilities": [
+              "Compound Eyes",
+              "Tinted Lens"
+          ]
+      },
+      {
+          "id": 49,
+          "name": "Venomoth",
+          "type": "Bug/Poison",
+          "base_experience": 158,
+          "abilities": [
+              "Shield Dust",
+              "Tinted Lens"
+          ]
+      },
+      {
+          "id": 50,
+          "name": "Diglett",
+          "type": "Ground",
+          "base_experience": 53,
+          "abilities": [
+              "Sand Veil",
+              "Arena Trap"
+          ]
+      },
+      {
+          "id": 51,
+          "name": "Dugtrio",
+          "type": "Ground",
+          "base_experience": 149,
+          "abilities": [
+              "Sand Veil",
+              "Arena Trap"
+          ]
+      },
+      {
+          "id": 52,
+          "name": "Meowth",
+          "type": "Normal",
+          "base_experience": 58,
+          "abilities": [
+              "Pickup",
+              "Technician"
+          ]
+      },
+      {
+          "id": 53,
+          "name": "Persian",
+          "type": "Normal",
+          "base_experience": 154,
+          "abilities": [
+              "Limber",
+              "Technician"
+          ]
+      },
+      {
+          "id": 54,
+          "name": "Psyduck",
+          "type": "Water",
+          "base_experience": 64,
+          "abilities": [
+              "Damp",
+              "Cloud Nine"
+          ]
+      },
+      {
+          "id": 55,
+          "name": "Golduck",
+          "type": "Water",
+          "base_experience": 175,
+          "abilities": [
+              "Damp",
+              "Cloud Nine"
+          ]
+      },
+      {
+          "id": 56,
+          "name": "Mankey",
+          "type": "Fighting",
+          "base_experience": 61,
+          "abilities": [
+              "Vital Spirit",
+              "Anger Point"
+          ]
+      },
+      {
+          "id": 57,
+          "name": "Primeape",
+          "type": "Fighting",
+          "base_experience": 159,
+          "abilities": [
+              "Vital Spirit",
+              "Anger Point"
+          ]
+      },
+      {
+          "id": 58,
+          "name": "Growlithe",
+          "type": "Fire",
+          "base_experience": 70,
+          "abilities": [
+              "Intimidate",
+              "Flash Fire"
+          ]
+      },
+      {
+          "id": 59,
+          "name": "Arcanine",
+          "type": "Fire",
+          "base_experience": 194,
+          "abilities": [
+              "Intimidate",
+              "Flash Fire"
+          ]
+      },
+      {
+          "id": 60,
+          "name": "Poliwag",
+          "type": "Water",
+          "base_experience": 60,
+          "abilities": [
+              "Water Absorb",
+              "Damp"
+          ]
+      },
+      {
+          "id": 61,
+          "name": "Poliwhirl",
+          "type": "Water",
+          "base_experience": 135,
+          "abilities": [
+              "Water Absorb",
+              "Damp"
+          ]
+      },
+      {
+          "id": 62,
+          "name": "Poliwrath",
+          "type": "Water/Fighting",
+          "base_experience": 230,
+          "abilities": [
+              "Water Absorb",
+              "Damp"
+          ]
+      },
+      {
+          "id": 63,
+          "name": "Abra",
+          "type": "Psychic",
+          "base_experience": 62,
+          "abilities": [
+              "Synchronize",
+              "Inner Focus"
+          ]
+      },
+      {
+          "id": 64,
+          "name": "Kadabra",
+          "type": "Psychic",
+          "base_experience": 140,
+          "abilities": [
+              "Synchronize",
+              "Inner Focus"
+          ]
+      },
+      {
+          "id": 65,
+          "name": "Alakazam",
+          "type": "Psychic",
+          "base_experience": 225,
+          "abilities": [
+              "Synchronize",
+              "Inner Focus"
+          ]
+      },
+      {
+          "id": 66,
+          "name": "Machop",
+          "type": "Fighting",
+          "base_experience": 61,
+          "abilities": [
+              "Guts",
+              "No Guard"
+          ]
+      },
+      {
+          "id": 67,
+          "name": "Machoke",
+          "type": "Fighting",
+          "base_experience": 142,
+          "abilities": [
+              "Guts",
+              "No Guard"
+          ]
+      },
+      {
+          "id": 68,
+          "name": "Machamp",
+          "type": "Fighting",
+          "base_experience": 239,
+          "abilities": [
+              "Guts",
+              "No Guard"
+          ]
+      },
+      {
+          "id": 69,
+          "name": "Bellsprout",
+          "type": "Grass/Poison",
+          "base_experience": 60,
+          "abilities": [
+              "Chlorophyll",
+              "Gluttony"
+          ]
+      },
+      {
+          "id": 70,
+          "name": "Weepinbell",
+          "type": "Grass/Poison",
+          "base_experience": 137,
+          "abilities": [
+              "Chlorophyll",
+              "Gluttony"
+          ]
+      },
+      {
+          "id": 71,
+          "name": "Victreebel",
+          "type": "Grass/Poison",
+          "base_experience": 221,
+          "abilities": [
+              "Chlorophyll",
+              "Gluttony"
+          ]
+      },
+      {
+          "id": 72,
+          "name": "Tentacool",
+          "type": "Water/Poison",
+          "base_experience": 67,
+          "abilities": [
+              "Clear Body",
+              "Liquid Ooze"
+          ]
+      },
+      {
+          "id": 73,
+          "name": "Tentacruel",
+          "type": "Water/Poison",
+          "base_experience": 180,
+          "abilities": [
+              "Clear Body",
+              "Liquid Ooze"
+          ]
+      },
+      {
+          "id": 74,
+          "name": "Geodude",
+          "type": "Rock/Ground",
+          "base_experience": 60,
+          "abilities": [
+              "Rock Head",
+              "Sturdy"
+          ]
+      },
+      {
+          "id": 75,
+          "name": "Graveler",
+          "type": "Rock/Ground",
+          "base_experience": 137,
+          "abilities": [
+              "Rock Head",
+              "Sturdy"
+          ]
+      },
+      {
+          "id": 76,
+          "name": "Golem",
+          "type": "Rock/Ground",
+          "base_experience": 223,
+          "abilities": [
+              "Rock Head",
+              "Sturdy"
+          ]
+      },
+      {
+          "id": 77,
+          "name": "Ponyta",
+          "type": "Fire",
+          "base_experience": 82,
+          "abilities": [
+              "Run Away",
+              "Flash Fire"
+          ]
+      },
+      {
+          "id": 78,
+          "name": "Rapidash",
+          "type": "Fire",
+          "base_experience": 175,
+          "abilities": [
+              "Run Away",
+              "Flash Fire"
+          ]
+      },
+      {
+          "id": 79,
+          "name": "Slowpoke",
+          "type": "Water/Psychic",
+          "base_experience": 63,
+          "abilities": [
+              "Oblivious",
+              "Own Tempo"
+          ]
+      },
+      {
+          "id": 80,
+          "name": "Slowbro",
+          "type": "Water/Psychic",
+          "base_experience": 172,
+          "abilities": [
+              "Oblivious",
+              "Own Tempo"
+          ]
+      },
+      {
+          "id": 81,
+          "name": "Magnemite",
+          "type": "Electric/Steel",
+          "base_experience": 65,
+          "abilities": [
+              "Magnet Pull",
+              "Sturdy"
+          ]
+      },
+      {
+          "id": 82,
+          "name": "Magneton",
+          "type": "Electric/Steel",
+          "base_experience": 163,
+          "abilities": [
+              "Magnet Pull",
+              "Sturdy"
+          ]
+      },
+      {
+          "id": 83,
+          "name": "Farfetch'd",
+          "type": "Normal/Flying",
+          "base_experience": 94,
+          "abilities": [
+              "Keen Eye",
+              "Inner Focus"
+          ]
+      },
+      {
+          "id": 84,
+          "name": "Doduo",
+          "type": "Normal/Flying",
+          "base_experience": 62,
+          "abilities": [
+              "Run Away",
+              "Early Bird"
+          ]
+      },
+      {
+          "id": 85,
+          "name": "Dodrio",
+          "type": "Normal/Flying",
+          "base_experience": 161,
+          "abilities": [
+              "Run Away",
+              "Early Bird"
+          ]
+      },
+      {
+          "id": 86,
+          "name": "Seel",
+          "type": "Water",
+          "base_experience": 65,
+          "abilities": [
+              "Thick Fat",
+              "Hydration"
+          ]
+      },
+      {
+          "id": 87,
+          "name": "Dewgong",
+          "type": "Water/Ice",
+          "base_experience": 166,
+          "abilities": [
+              "Thick Fat",
+              "Hydration"
+          ]
+      },
+      {
+          "id": 88,
+          "name": "Grimer",
+          "type": "Poison",
+          "base_experience": 65,
+          "abilities": [
+              "Stench",
+              "Sticky Hold"
+          ]
+      },
+      {
+          "id": 89,
+          "name": "Muk",
+          "type": "Poison",
+          "base_experience": 175,
+          "abilities": [
+              "Stench",
+              "Sticky Hold"
+          ]
+      },
+      {
+          "id": 90,
+          "name": "Shellder",
+          "type": "Water",
+          "base_experience": 61,
+          "abilities": [
+              "Shell Armor",
+              "Skill Link"
+          ]
+      },
+      {
+          "id": 91,
+          "name": "Cloyster",
+          "type": "Water/Ice",
+          "base_experience": 184,
+          "abilities": [
+              "Shell Armor",
+              "Skill Link"
+          ]
+      },
+      {
+          "id": 92,
+          "name": "Gastly",
+          "type": "Ghost/Poison",
+          "base_experience": 62,
+          "abilities": [
+              "Levitate",
+              null
+          ]
+      },
+      {
+          "id": 93,
+          "name": "Haunter",
+          "type": "Ghost/Poison",
+          "base_experience": 142,
+          "abilities": [
+              "Levitate",
+              null
+          ]
+      },
+      {
+          "id": 94,
+          "name": "Gengar",
+          "type": "Ghost/Poison",
+          "base_experience": 225,
+          "abilities": [
+              "Levitate",
+              null
+          ]
+      },
+      {
+          "id": 95,
+          "name": "Onix",
+          "type": "Rock/Ground",
+          "base_experience": 77,
+          "abilities": [
+              "Rock Head",
+              "Sturdy"
+          ]
+      },
+      {
+          "id": 96,
+          "name": "Drowzee",
+          "type": "Psychic",
+          "base_experience": 66,
+          "abilities": [
+              "Insomnia",
+              "Forewarn"
+          ]
+      },
+      {
+          "id": 97,
+          "name": "Hypno",
+          "type": "Psychic",
+          "base_experience": 169,
+          "abilities": [
+              "Insomnia",
+              "Forewarn"
+          ]
+      },
+      {
+          "id": 98,
+          "name": "Krabby",
+          "type": "Water",
+          "base_experience": 65,
+          "abilities": [
+              "Hyper Cutter",
+              "Shell Armor"
+          ]
+      },
+      {
+          "id": 99,
+          "name": "Kingler",
+          "type": "Water",
+          "base_experience": 166,
+          "abilities": [
+              "Hyper Cutter",
+              "Shell Armor"
+          ]
+      },
+      {
+          "id": 100,
+          "name": "Voltorb",
+          "type": "Electric",
+          "base_experience": 66,
+          "abilities": [
+              "Soundproof",
+              "Static"
+          ]
+      },
+      {
+          "id": 101,
+          "name": "Electrode",
+          "type": "Electric",
+          "base_experience": 168,
+          "abilities": [
+              "Soundproof",
+              "Static"
+          ]
+      },
+      {
+          "id": 102,
+          "name": "Exeggcute",
+          "type": "Grass/Psychic",
+          "base_experience": 65,
+          "abilities": [
+              "Chlorophyll",
+              "Harvest"
+          ]
+      },
+      {
+          "id": 103,
+          "name": "Exeggutor",
+          "type": "Grass/Psychic",
+          "base_experience": 186,
+          "abilities": [
+              "Chlorophyll",
+              "Harvest"
+          ]
+      },
+      {
+          "id": 104,
+          "name": "Cubone",
+          "type": "Ground",
+          "base_experience": 64,
+          "abilities": [
+              "Rock Head",
+              "Lightning Rod"
+          ]
+      },
+      {
+          "id": 105,
+          "name": "Marowak",
+          "type": "Ground",
+          "base_experience": 149,
+          "abilities": [
+              "Rock Head",
+              "Lightning Rod"
+          ]
+      },
+      {
+          "id": 106,
+          "name": "Hitmonlee",
+          "type": "Fighting",
+          "base_experience": 159,
+          "abilities": [
+              "Limber",
+              "Reckless"
+          ]
+      },
+      {
+          "id": 107,
+          "name": "Hitmonchan",
+          "type": "Fighting",
+          "base_experience": 159,
+          "abilities": [
+              "Keen Eye",
+              "Iron Fist"
+          ]
+      },
+      {
+          "id": 108,
+          "name": "Lickitung",
+          "type": "Normal",
+          "base_experience": 77,
+          "abilities": [
+              "Own Tempo",
+              "Oblivious"
+          ]
+      },
+      {
+          "id": 109,
+          "name": "Koffing",
+          "type": "Poison",
+          "base_experience": 68,
+          "abilities": [
+              "Levitate",
+              null
+          ]
+      },
+      {
+          "id": 110,
+          "name": "Weezing",
+          "type": "Poison",
+          "base_experience": 172,
+          "abilities": [
+              "Levitate",
+              null
+          ]
+      },
+      {
+          "id": 111,
+          "name": "Rhyhorn",
+          "type": "Ground/Rock",
+          "base_experience": 69,
+          "abilities": [
+              "Lightning Rod",
+              "Rock Head"
+          ]
+      },
+      {
+          "id": 112,
+          "name": "Rhydon",
+          "type": "Ground/Rock",
+          "base_experience": 170,
+          "abilities": [
+              "Lightning Rod",
+              "Rock Head"
+          ]
+      },
+      {
+          "id": 113,
+          "name": "Chansey",
+          "type": "Normal",
+          "base_experience": 395,
+          "abilities": [
+              "Natural Cure",
+              "Serene Grace"
+          ]
+      },
+      {
+          "id": 114,
+          "name": "Tangela",
+          "type": "Grass",
+          "base_experience": 87,
+          "abilities": [
+              "Chlorophyll",
+              "Leaf Guard"
+          ]
+      },
+      {
+          "id": 115,
+          "name": "Kangaskhan",
+          "type": "Normal",
+          "base_experience": 172,
+          "abilities": [
+              "Early Bird",
+              "Scrappy"
+          ]
+      },
+      {
+          "id": 116,
+          "name": "Horsea",
+          "type": "Water",
+          "base_experience": 59,
+          "abilities": [
+              "Swift Swim",
+              "Sniper"
+          ]
+      },
+      {
+          "id": 117,
+          "name": "Seadra",
+          "type": "Water",
+          "base_experience": 154,
+          "abilities": [
+              "Poison Point",
+              "Sniper"
+          ]
+      },
+      {
+          "id": 118,
+          "name": "Goldeen",
+          "type": "Water",
+          "base_experience": 64,
+          "abilities": [
+              "Swift Swim",
+              "Water Veil"
+          ]
+      },
+      {
+          "id": 119,
+          "name": "Seaking",
+          "type": "Water",
+          "base_experience": 158,
+          "abilities": [
+              "Swift Swim",
+              "Water Veil"
+          ]
+      },
+      {
+          "id": 120,
+          "name": "Staryu",
+          "type": "Water",
+          "base_experience": 68,
+          "abilities": [
+              "Illuminate",
+              "Natural Cure"
+          ]
+      },
+      {
+          "id": 121,
+          "name": "Starmie",
+          "type": "Water/Psychic",
+          "base_experience": 182,
+          "abilities": [
+              "Illuminate",
+              "Natural Cure"
+          ]
+      },
+      {
+          "id": 122,
+          "name": "Mr. Mime",
+          "type": "Psychic/Fairy",
+          "base_experience": 161,
+          "abilities": [
+              "Soundproof",
+              "Filter"
+          ]
+      },
+      {
+          "id": 123,
+          "name": "Scyther",
+          "type": "Bug/Flying",
+          "base_experience": 172,
+          "abilities": [
+              "Swarm",
+              "Technician"
+          ]
+      },
+      {
+          "id": 124,
+          "name": "Jynx",
+          "type": "Ice/Psychic",
+          "base_experience": 159,
+          "abilities": [
+              "Oblivious",
+              "Forewarn"
+          ]
+      },
+      {
+          "id": 125,
+          "name": "Electabuzz",
+          "type": "Electric",
+          "base_experience": 172,
+          "abilities": [
+              "Static",
+              null
+          ]
+      },
+      {
+          "id": 126,
+          "name": "Magmar",
+          "type": "Fire",
+          "base_experience": 173,
+          "abilities": [
+              "Flame Body",
+              null
+          ]
+      },
+      {
+          "id": 127,
+          "name": "Pinsir",
+          "type": "Bug",
+          "base_experience": 175,
+          "abilities": [
+              "Hyper Cutter",
+              "Mold Breaker"
+          ]
+      },
+      {
+          "id": 128,
+          "name": "Tauros",
+          "type": "Normal",
+          "base_experience": 149,
+          "abilities": [
+              "Intimidate",
+              "Anger Point"
+          ]
+      },
+      {
+          "id": 129,
+          "name": "Magikarp",
+          "type": "Water",
+          "base_experience": 40,
+          "abilities": [
+              "Swift Swim",
+              "Rattled"
+          ]
+      },
+      {
+          "id": 130,
+          "name": "Gyarados",
+          "type": "Water/Flying",
+          "base_experience": 189,
+          "abilities": [
+              "Intimidate",
+              "Moxie"
+          ]
+      },
+      {
+          "id": 131,
+          "name": "Lapras",
+          "type": "Water/Ice",
+          "base_experience": 187,
+          "abilities": [
+              "Water Absorb",
+              "Shell Armor"
+          ]
+      },
+      {
+          "id": 132,
+          "name": "Ditto",
+          "type": "Normal",
+          "base_experience": 101,
+          "abilities": [
+              "Limber",
+              null
+          ]
+      },
+      {
+          "id": 133,
+          "name": "Eevee",
+          "type": "Normal",
+          "base_experience": 65,
+          "abilities": [
+              "Run Away",
+              "Adaptability"
+          ]
+      },
+      {
+          "id": 134,
+          "name": "Vaporeon",
+          "type": "Water",
+          "base_experience": 184,
+          "abilities": [
+              "Water Absorb",
+              "Hydration"
+          ]
+      },
+      {
+          "id": 135,
+          "name": "Jolteon",
+          "type": "Electric",
+          "base_experience": 184,
+          "abilities": [
+              "Volt Absorb",
+              "Quick Feet"
+          ]
+      },
+      {
+          "id": 136,
+          "name": "Flareon",
+          "type": "Fire",
+          "base_experience": 184,
+          "abilities": [
+              "Flash Fire",
+              "Guts"
+          ]
+      },
+      {
+          "id": 137,
+          "name": "Porygon",
+          "type": "Normal",
+          "base_experience": 79,
+          "abilities": [
+              "Trace",
+              "Download"
+          ]
+      },
+      {
+          "id": 138,
+          "name": "Omanyte",
+          "type": "Rock/Water",
+          "base_experience": 71,
+          "abilities": [
+              "Swift Swim",
+              "Shell Armor"
+          ]
+      },
+      {
+          "id": 139,
+          "name": "Omastar",
+          "type": "Rock/Water",
+          "base_experience": 173,
+          "abilities": [
+              "Swift Swim",
+              "Shell Armor"
+          ]
+      },
+      {
+          "id": 140,
+          "name": "Kabuto",
+          "type": "Rock/Water",
+          "base_experience": 71,
+          "abilities": [
+              "Swift Swim",
+              "Battle Armor"
+          ]
+      },
+      {
+          "id": 141,
+          "name": "Kabutops",
+          "type": "Rock/Water",
+          "base_experience": 173,
+          "abilities": [
+              "Swift Swim",
+              "Battle Armor"
+          ]
+      },
+      {
+          "id": 142,
+          "name": "Aerodactyl",
+          "type": "Rock/Flying",
+          "base_experience": 180,
+          "abilities": [
+              "Rock Head",
+              "Pressure"
+          ]
+      },
+      {
+          "id": 143,
+          "name": "Snorlax",
+          "type": "Normal",
+          "base_experience": 189,
+          "abilities": [
+              "Immunity",
+              "Thick Fat"
+          ]
+      },
+      {
+          "id": 144,
+          "name": "Articuno",
+          "type": "Ice/Flying",
+          "base_experience": 261,
+          "abilities": [
+              "Pressure",
+              null
+          ]
+      },
+      {
+          "id": 145,
+          "name": "Zapdos",
+          "type": "Electric/Flying",
+          "base_experience": 261,
+          "abilities": [
+              "Pressure",
+              null
+          ]
+      },
+      {
+          "id": 146,
+          "name": "Moltres",
+          "type": "Fire/Flying",
+          "base_experience": 261,
+          "abilities": [
+              "Pressure",
+              null
+          ]
+      },
+      {
+          "id": 147,
+          "name": "Dratini",
+          "type": "Dragon",
+          "base_experience": 60,
+          "abilities": [
+              "Shed Skin",
+              null
+          ]
+      },
+      {
+          "id": 148,
+          "name": "Dragonair",
+          "type": "Dragon",
+          "base_experience": 147,
+          "abilities": [
+              "Shed Skin",
+              null
+          ]
+      },
+      {
+          "id": 149,
+          "name": "Dragonite",
+          "type": "Dragon/Flying",
+          "base_experience": 270,
+          "abilities": [
+              "Inner Focus",
+              "Multiscale"
+          ]
+      },
+      {
+          "id": 150,
+          "name": "Mewtwo",
+          "type": "Psychic",
+          "base_experience": 306,
+          "abilities": [
+              "Pressure",
+              null
+          ]
+      },
+      {
+          "id": 151,
+          "name": "Mew",
+          "type": "Psychic",
+          "base_experience": 270,
+          "abilities": [
+              "Synchronize",
+              null
+          ]
+      }
+  ]
+}
