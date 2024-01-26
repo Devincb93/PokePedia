@@ -1,1515 +1,2576 @@
 {
-  "pokemons": [
-      {
-          "id": 1,
-          "name": "Bulbasaur",
-          "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891758-001bulbasaur.png",
-          "type": "Grass/Poison",
-          "base_experience": 64,
-          "abilities": [
-              "Overgrow",
-              "Chlorophyll"
-          ]
-      },
-      {
-          "id": 2,
-          "name": "Ivysaur",
-          "type": "Grass/Poison",
-          "base_experience": 142,
-          "abilities": [
-              "Overgrow",
-              "Chlorophyll"
-          ]
-      },
-      {
-          "id": 3,
-          "name": "Venusaur",
-          "type": "Grass/Poison",
-          "base_experience": 236,
-          "abilities": [
-              "Overgrow",
-              "Chlorophyll"
-          ]
-      },
-      {
-          "id": 4,
-          "name": "Charmander",
-          "type": "Fire",
-          "base_experience": 62,
-          "abilities": [
-              "Blaze",
-              null
-          ]
-      },
-      {
-          "id": 5,
-          "name": "Charmeleon",
-          "type": "Fire",
-          "base_experience": 142,
-          "abilities": [
-              "Blaze",
-              null
-          ]
-      },
-      {
-          "id": 6,
-          "name": "Charizard",
-          "type": "Fire/Flying",
-          "base_experience": 240,
-          "abilities": [
-              "Blaze",
-              null
-          ]
-      },
-      {
-          "id": 7,
-          "name": "Squirtle",
-          "type": "Water",
-          "base_experience": 63,
-          "abilities": [
-              "Torrent",
-              "Rain Dish"
-          ]
-      },
-      {
-          "id": 8,
-          "name": "Wartortle",
-          "type": "Water",
-          "base_experience": 142,
-          "abilities": [
-              "Torrent",
-              "Rain Dish"
-          ]
-      },
-      {
-          "id": 9,
-          "name": "Blastoise",
-          "type": "Water",
-          "base_experience": 239,
-          "abilities": [
-              "Torrent",
-              "Rain Dish"
-          ]
-      },
-      {
-          "id": 10,
-          "name": "Caterpie",
-          "type": "Bug",
-          "base_experience": 39,
-          "abilities": [
-              "Shield Dust",
-              "Run Away"
-          ]
-      },
-      {
-          "id": 11,
-          "name": "Metapod",
-          "type": "Bug",
-          "base_experience": 72,
-          "abilities": [
-              "Shed Skin",
-              null
-          ]
-      },
-      {
-          "id": 12,
-          "name": "Butterfree",
-          "type": "Bug/Flying",
-          "base_experience": 178,
-          "abilities": [
-              "Compound Eyes",
-              "Tinted Lens"
-          ]
-      },
-      {
-          "id": 13,
-          "name": "Weedle",
-          "type": "Bug/Poison",
-          "base_experience": 39,
-          "abilities": [
-              "Shield Dust",
-              "Run Away"
-          ]
-      },
-      {
-          "id": 14,
-          "name": "Kakuna",
-          "type": "Bug/Poison",
-          "base_experience": 72,
-          "abilities": [
-              "Shed Skin",
-              null
-          ]
-      },
-      {
-          "id": 15,
-          "name": "Beedrill",
-          "type": "Bug/Poison",
-          "base_experience": 178,
-          "abilities": [
-              "Swarm",
-              "Sniper"
-          ]
-      },
-      {
-          "id": 16,
-          "name": "Pidgey",
-          "type": "Normal/Flying",
-          "base_experience": 50,
-          "abilities": [
-              "Keen Eye",
-              "Tangled Feet"
-          ]
-      },
-      {
-          "id": 17,
-          "name": "Pidgeotto",
-          "type": "Normal/Flying",
-          "base_experience": 122,
-          "abilities": [
-              "Keen Eye",
-              "Tangled Feet"
-          ]
-      },
-      {
-          "id": 18,
-          "name": "Pidgeot",
-          "type": "Normal/Flying",
-          "base_experience": 239,
-          "abilities": [
-              "Keen Eye",
-              "Tangled Feet"
-          ]
-      },
-      {
-          "id": 19,
-          "name": "Rattata",
-          "type": "Normal",
-          "base_experience": 51,
-          "abilities": [
-              "Run Away",
-              "Guts"
-          ]
-      },
-      {
-          "id": 20,
-          "name": "Raticate",
-          "type": "Normal",
-          "base_experience": 145,
-          "abilities": [
-              "Run Away",
-              "Guts"
-          ]
-      },
-      {
-          "id": 21,
-          "name": "Spearow",
-          "type": "Normal/Flying",
-          "base_experience": 52,
-          "abilities": [
-              "Keen Eye",
-              "Sniper"
-          ]
-      },
-      {
-          "id": 22,
-          "name": "Fearow",
-          "type": "Normal/Flying",
-          "base_experience": 155,
-          "abilities": [
-              "Keen Eye",
-              "Sniper"
-          ]
-      },
-      {
-          "id": 23,
-          "name": "Ekans",
-          "type": "Poison",
-          "base_experience": 58,
-          "abilities": [
-              "Intimidate",
-              "Shed Skin"
-          ]
-      },
-      {
-          "id": 24,
-          "name": "Arbok",
-          "type": "Poison",
-          "base_experience": 157,
-          "abilities": [
-              "Intimidate",
-              "Shed Skin"
-          ]
-      },
-      {
-          "id": 25,
-          "name": "Pikachu",
-          "type": "Electric",
-          "base_experience": 112,
-          "abilities": [
-              "Static",
-              null
-          ]
-      },
-      {
-          "id": 26,
-          "name": "Raichu",
-          "type": "Electric",
-          "base_experience": 218,
-          "abilities": [
-              "Static",
-              null
-          ]
-      },
-      {
-          "id": 27,
-          "name": "Sandshrew",
-          "type": "Ground",
-          "base_experience": 60,
-          "abilities": [
-              "Sand Veil",
-              "Sand Rush"
-          ]
-      },
-      {
-          "id": 28,
-          "name": "Sandslash",
-          "type": "Ground",
-          "base_experience": 158,
-          "abilities": [
-              "Sand Veil",
-              "Sand Rush"
-          ]
-      },
-      {
-          "id": 29,
-          "name": "Nidoran♀",
-          "type": "Poison",
-          "base_experience": 55,
-          "abilities": [
-              "Poison Point",
-              "Rivalry"
-          ]
-      },
-      {
-          "id": 30,
-          "name": "Nidorina",
-          "type": "Poison",
-          "base_experience": 128,
-          "abilities": [
-              "Poison Point",
-              "Rivalry"
-          ]
-      },
-      {
-          "id": 31,
-          "name": "Nidoqueen",
-          "type": "Poison/Ground",
-          "base_experience": 227,
-          "abilities": [
-              "Poison Point",
-              "Rivalry"
-          ]
-      },
-      {
-          "id": 32,
-          "name": "Nidoran♂",
-          "type": "Poison",
-          "base_experience": 55,
-          "abilities": [
-              "Poison Point",
-              "Rivalry"
-          ]
-      },
-      {
-          "id": 33,
-          "name": "Nidorino",
-          "type": "Poison",
-          "base_experience": 128,
-          "abilities": [
-              "Poison Point",
-              "Rivalry"
-          ]
-      },
-      {
-          "id": 34,
-          "name": "Nidoking",
-          "type": "Poison/Ground",
-          "base_experience": 227,
-          "abilities": [
-              "Poison Point",
-              "Rivalry"
-          ]
-      },
-      {
-          "id": 35,
-          "name": "Clefairy",
-          "type": "Fairy",
-          "base_experience": 68,
-          "abilities": [
-              "Cute Charm",
-              "Magic Guard"
-          ]
-      },
-      {
-          "id": 36,
-          "name": "Clefable",
-          "type": "Fairy",
-          "base_experience": 129,
-          "abilities": [
-              "Cute Charm",
-              "Magic Guard"
-          ]
-      },
-      {
-          "id": 37,
-          "name": "Vulpix",
-          "type": "Fire",
-          "base_experience": 63,
-          "abilities": [
-              "Flash Fire",
-              "Drought"
-          ]
-      },
-      {
-          "id": 38,
-          "name": "Ninetales",
-          "type": "Fire",
-          "base_experience": 178,
-          "abilities": [
-              "Flash Fire",
-              "Drought"
-          ]
-      },
-      {
-          "id": 39,
-          "name": "Jigglypuff",
-          "type": "Normal/Fairy",
-          "base_experience": 95,
-          "abilities": [
-              "Cute Charm",
-              "Competitive"
-          ]
-      },
-      {
-          "id": 40,
-          "name": "Wigglytuff",
-          "type": "Normal/Fairy",
-          "base_experience": 196,
-          "abilities": [
-              "Cute Charm",
-              "Competitive"
-          ]
-      },
-      {
-          "id": 41,
-          "name": "Zubat",
-          "type": "Poison/Flying",
-          "base_experience": 49,
-          "abilities": [
-              "Inner Focus",
-              "Infiltrator"
-          ]
-      },
-      {
-          "id": 42,
-          "name": "Golbat",
-          "type": "Poison/Flying",
-          "base_experience": 159,
-          "abilities": [
-              "Inner Focus",
-              "Infiltrator"
-          ]
-      },
-      {
-          "id": 43,
-          "name": "Oddish",
-          "type": "Grass/Poison",
-          "base_experience": 64,
-          "abilities": [
-              "Chlorophyll",
-              "Run Away"
-          ]
-      },
-      {
-          "id": 44,
-          "name": "Gloom",
-          "type": "Grass/Poison",
-          "base_experience": 138,
-          "abilities": [
-              "Chlorophyll",
-              "Stench"
-          ]
-      },
-      {
-          "id": 45,
-          "name": "Vileplume",
-          "type": "Grass/Poison",
-          "base_experience": 221,
-          "abilities": [
-              "Chlorophyll",
-              "Effect Spore"
-          ]
-      },
-      {
-          "id": 46,
-          "name": "Paras",
-          "type": "Bug/Grass",
-          "base_experience": 57,
-          "abilities": [
-              "Effect Spore",
-              "Dry Skin"
-          ]
-      },
-      {
-          "id": 47,
-          "name": "Parasect",
-          "type": "Bug/Grass",
-          "base_experience": 142,
-          "abilities": [
-              "Effect Spore",
-              "Dry Skin"
-          ]
-      },
-      {
-          "id": 48,
-          "name": "Venonat",
-          "type": "Bug/Poison",
-          "base_experience": 61,
-          "abilities": [
-              "Compound Eyes",
-              "Tinted Lens"
-          ]
-      },
-      {
-          "id": 49,
-          "name": "Venomoth",
-          "type": "Bug/Poison",
-          "base_experience": 158,
-          "abilities": [
-              "Shield Dust",
-              "Tinted Lens"
-          ]
-      },
-      {
-          "id": 50,
-          "name": "Diglett",
-          "type": "Ground",
-          "base_experience": 53,
-          "abilities": [
-              "Sand Veil",
-              "Arena Trap"
-          ]
-      },
-      {
-          "id": 51,
-          "name": "Dugtrio",
-          "type": "Ground",
-          "base_experience": 149,
-          "abilities": [
-              "Sand Veil",
-              "Arena Trap"
-          ]
-      },
-      {
-          "id": 52,
-          "name": "Meowth",
-          "type": "Normal",
-          "base_experience": 58,
-          "abilities": [
-              "Pickup",
-              "Technician"
-          ]
-      },
-      {
-          "id": 53,
-          "name": "Persian",
-          "type": "Normal",
-          "base_experience": 154,
-          "abilities": [
-              "Limber",
-              "Technician"
-          ]
-      },
-      {
-          "id": 54,
-          "name": "Psyduck",
-          "type": "Water",
-          "base_experience": 64,
-          "abilities": [
-              "Damp",
-              "Cloud Nine"
-          ]
-      },
-      {
-          "id": 55,
-          "name": "Golduck",
-          "type": "Water",
-          "base_experience": 175,
-          "abilities": [
-              "Damp",
-              "Cloud Nine"
-          ]
-      },
-      {
-          "id": 56,
-          "name": "Mankey",
-          "type": "Fighting",
-          "base_experience": 61,
-          "abilities": [
-              "Vital Spirit",
-              "Anger Point"
-          ]
-      },
-      {
-          "id": 57,
-          "name": "Primeape",
-          "type": "Fighting",
-          "base_experience": 159,
-          "abilities": [
-              "Vital Spirit",
-              "Anger Point"
-          ]
-      },
-      {
-          "id": 58,
-          "name": "Growlithe",
-          "type": "Fire",
-          "base_experience": 70,
-          "abilities": [
-              "Intimidate",
-              "Flash Fire"
-          ]
-      },
-      {
-          "id": 59,
-          "name": "Arcanine",
-          "type": "Fire",
-          "base_experience": 194,
-          "abilities": [
-              "Intimidate",
-              "Flash Fire"
-          ]
-      },
-      {
-          "id": 60,
-          "name": "Poliwag",
-          "type": "Water",
-          "base_experience": 60,
-          "abilities": [
-              "Water Absorb",
-              "Damp"
-          ]
-      },
-      {
-          "id": 61,
-          "name": "Poliwhirl",
-          "type": "Water",
-          "base_experience": 135,
-          "abilities": [
-              "Water Absorb",
-              "Damp"
-          ]
-      },
-      {
-          "id": 62,
-          "name": "Poliwrath",
-          "type": "Water/Fighting",
-          "base_experience": 230,
-          "abilities": [
-              "Water Absorb",
-              "Damp"
-          ]
-      },
-      {
-          "id": 63,
-          "name": "Abra",
-          "type": "Psychic",
-          "base_experience": 62,
-          "abilities": [
-              "Synchronize",
-              "Inner Focus"
-          ]
-      },
-      {
-          "id": 64,
-          "name": "Kadabra",
-          "type": "Psychic",
-          "base_experience": 140,
-          "abilities": [
-              "Synchronize",
-              "Inner Focus"
-          ]
-      },
-      {
-          "id": 65,
-          "name": "Alakazam",
-          "type": "Psychic",
-          "base_experience": 225,
-          "abilities": [
-              "Synchronize",
-              "Inner Focus"
-          ]
-      },
-      {
-          "id": 66,
-          "name": "Machop",
-          "type": "Fighting",
-          "base_experience": 61,
-          "abilities": [
-              "Guts",
-              "No Guard"
-          ]
-      },
-      {
-          "id": 67,
-          "name": "Machoke",
-          "type": "Fighting",
-          "base_experience": 142,
-          "abilities": [
-              "Guts",
-              "No Guard"
-          ]
-      },
-      {
-          "id": 68,
-          "name": "Machamp",
-          "type": "Fighting",
-          "base_experience": 239,
-          "abilities": [
-              "Guts",
-              "No Guard"
-          ]
-      },
-      {
-          "id": 69,
-          "name": "Bellsprout",
-          "type": "Grass/Poison",
-          "base_experience": 60,
-          "abilities": [
-              "Chlorophyll",
-              "Gluttony"
-          ]
-      },
-      {
-          "id": 70,
-          "name": "Weepinbell",
-          "type": "Grass/Poison",
-          "base_experience": 137,
-          "abilities": [
-              "Chlorophyll",
-              "Gluttony"
-          ]
-      },
-      {
-          "id": 71,
-          "name": "Victreebel",
-          "type": "Grass/Poison",
-          "base_experience": 221,
-          "abilities": [
-              "Chlorophyll",
-              "Gluttony"
-          ]
-      },
-      {
-          "id": 72,
-          "name": "Tentacool",
-          "type": "Water/Poison",
-          "base_experience": 67,
-          "abilities": [
-              "Clear Body",
-              "Liquid Ooze"
-          ]
-      },
-      {
-          "id": 73,
-          "name": "Tentacruel",
-          "type": "Water/Poison",
-          "base_experience": 180,
-          "abilities": [
-              "Clear Body",
-              "Liquid Ooze"
-          ]
-      },
-      {
-          "id": 74,
-          "name": "Geodude",
-          "type": "Rock/Ground",
-          "base_experience": 60,
-          "abilities": [
-              "Rock Head",
-              "Sturdy"
-          ]
-      },
-      {
-          "id": 75,
-          "name": "Graveler",
-          "type": "Rock/Ground",
-          "base_experience": 137,
-          "abilities": [
-              "Rock Head",
-              "Sturdy"
-          ]
-      },
-      {
-          "id": 76,
-          "name": "Golem",
-          "type": "Rock/Ground",
-          "base_experience": 223,
-          "abilities": [
-              "Rock Head",
-              "Sturdy"
-          ]
-      },
-      {
-          "id": 77,
-          "name": "Ponyta",
-          "type": "Fire",
-          "base_experience": 82,
-          "abilities": [
-              "Run Away",
-              "Flash Fire"
-          ]
-      },
-      {
-          "id": 78,
-          "name": "Rapidash",
-          "type": "Fire",
-          "base_experience": 175,
-          "abilities": [
-              "Run Away",
-              "Flash Fire"
-          ]
-      },
-      {
-          "id": 79,
-          "name": "Slowpoke",
-          "type": "Water/Psychic",
-          "base_experience": 63,
-          "abilities": [
-              "Oblivious",
-              "Own Tempo"
-          ]
-      },
-      {
-          "id": 80,
-          "name": "Slowbro",
-          "type": "Water/Psychic",
-          "base_experience": 172,
-          "abilities": [
-              "Oblivious",
-              "Own Tempo"
-          ]
-      },
-      {
-          "id": 81,
-          "name": "Magnemite",
-          "type": "Electric/Steel",
-          "base_experience": 65,
-          "abilities": [
-              "Magnet Pull",
-              "Sturdy"
-          ]
-      },
-      {
-          "id": 82,
-          "name": "Magneton",
-          "type": "Electric/Steel",
-          "base_experience": 163,
-          "abilities": [
-              "Magnet Pull",
-              "Sturdy"
-          ]
-      },
-      {
-          "id": 83,
-          "name": "Farfetch'd",
-          "type": "Normal/Flying",
-          "base_experience": 94,
-          "abilities": [
-              "Keen Eye",
-              "Inner Focus"
-          ]
-      },
-      {
-          "id": 84,
-          "name": "Doduo",
-          "type": "Normal/Flying",
-          "base_experience": 62,
-          "abilities": [
-              "Run Away",
-              "Early Bird"
-          ]
-      },
-      {
-          "id": 85,
-          "name": "Dodrio",
-          "type": "Normal/Flying",
-          "base_experience": 161,
-          "abilities": [
-              "Run Away",
-              "Early Bird"
-          ]
-      },
-      {
-          "id": 86,
-          "name": "Seel",
-          "type": "Water",
-          "base_experience": 65,
-          "abilities": [
-              "Thick Fat",
-              "Hydration"
-          ]
-      },
-      {
-          "id": 87,
-          "name": "Dewgong",
-          "type": "Water/Ice",
-          "base_experience": 166,
-          "abilities": [
-              "Thick Fat",
-              "Hydration"
-          ]
-      },
-      {
-          "id": 88,
-          "name": "Grimer",
-          "type": "Poison",
-          "base_experience": 65,
-          "abilities": [
-              "Stench",
-              "Sticky Hold"
-          ]
-      },
-      {
-          "id": 89,
-          "name": "Muk",
-          "type": "Poison",
-          "base_experience": 175,
-          "abilities": [
-              "Stench",
-              "Sticky Hold"
-          ]
-      },
-      {
-          "id": 90,
-          "name": "Shellder",
-          "type": "Water",
-          "base_experience": 61,
-          "abilities": [
-              "Shell Armor",
-              "Skill Link"
-          ]
-      },
-      {
-          "id": 91,
-          "name": "Cloyster",
-          "type": "Water/Ice",
-          "base_experience": 184,
-          "abilities": [
-              "Shell Armor",
-              "Skill Link"
-          ]
-      },
-      {
-          "id": 92,
-          "name": "Gastly",
-          "type": "Ghost/Poison",
-          "base_experience": 62,
-          "abilities": [
-              "Levitate",
-              null
-          ]
-      },
-      {
-          "id": 93,
-          "name": "Haunter",
-          "type": "Ghost/Poison",
-          "base_experience": 142,
-          "abilities": [
-              "Levitate",
-              null
-          ]
-      },
-      {
-          "id": 94,
-          "name": "Gengar",
-          "type": "Ghost/Poison",
-          "base_experience": 225,
-          "abilities": [
-              "Levitate",
-              null
-          ]
-      },
-      {
-          "id": 95,
-          "name": "Onix",
-          "type": "Rock/Ground",
-          "base_experience": 77,
-          "abilities": [
-              "Rock Head",
-              "Sturdy"
-          ]
-      },
-      {
-          "id": 96,
-          "name": "Drowzee",
-          "type": "Psychic",
-          "base_experience": 66,
-          "abilities": [
-              "Insomnia",
-              "Forewarn"
-          ]
-      },
-      {
-          "id": 97,
-          "name": "Hypno",
-          "type": "Psychic",
-          "base_experience": 169,
-          "abilities": [
-              "Insomnia",
-              "Forewarn"
-          ]
-      },
-      {
-          "id": 98,
-          "name": "Krabby",
-          "type": "Water",
-          "base_experience": 65,
-          "abilities": [
-              "Hyper Cutter",
-              "Shell Armor"
-          ]
-      },
-      {
-          "id": 99,
-          "name": "Kingler",
-          "type": "Water",
-          "base_experience": 166,
-          "abilities": [
-              "Hyper Cutter",
-              "Shell Armor"
-          ]
-      },
-      {
-          "id": 100,
-          "name": "Voltorb",
-          "type": "Electric",
-          "base_experience": 66,
-          "abilities": [
-              "Soundproof",
-              "Static"
-          ]
-      },
-      {
-          "id": 101,
-          "name": "Electrode",
-          "type": "Electric",
-          "base_experience": 168,
-          "abilities": [
-              "Soundproof",
-              "Static"
-          ]
-      },
-      {
-          "id": 102,
-          "name": "Exeggcute",
-          "type": "Grass/Psychic",
-          "base_experience": 65,
-          "abilities": [
-              "Chlorophyll",
-              "Harvest"
-          ]
-      },
-      {
-          "id": 103,
-          "name": "Exeggutor",
-          "type": "Grass/Psychic",
-          "base_experience": 186,
-          "abilities": [
-              "Chlorophyll",
-              "Harvest"
-          ]
-      },
-      {
-          "id": 104,
-          "name": "Cubone",
-          "type": "Ground",
-          "base_experience": 64,
-          "abilities": [
-              "Rock Head",
-              "Lightning Rod"
-          ]
-      },
-      {
-          "id": 105,
-          "name": "Marowak",
-          "type": "Ground",
-          "base_experience": 149,
-          "abilities": [
-              "Rock Head",
-              "Lightning Rod"
-          ]
-      },
-      {
-          "id": 106,
-          "name": "Hitmonlee",
-          "type": "Fighting",
-          "base_experience": 159,
-          "abilities": [
-              "Limber",
-              "Reckless"
-          ]
-      },
-      {
-          "id": 107,
-          "name": "Hitmonchan",
-          "type": "Fighting",
-          "base_experience": 159,
-          "abilities": [
-              "Keen Eye",
-              "Iron Fist"
-          ]
-      },
-      {
-          "id": 108,
-          "name": "Lickitung",
-          "type": "Normal",
-          "base_experience": 77,
-          "abilities": [
-              "Own Tempo",
-              "Oblivious"
-          ]
-      },
-      {
-          "id": 109,
-          "name": "Koffing",
-          "type": "Poison",
-          "base_experience": 68,
-          "abilities": [
-              "Levitate",
-              null
-          ]
-      },
-      {
-          "id": 110,
-          "name": "Weezing",
-          "type": "Poison",
-          "base_experience": 172,
-          "abilities": [
-              "Levitate",
-              null
-          ]
-      },
-      {
-          "id": 111,
-          "name": "Rhyhorn",
-          "type": "Ground/Rock",
-          "base_experience": 69,
-          "abilities": [
-              "Lightning Rod",
-              "Rock Head"
-          ]
-      },
-      {
-          "id": 112,
-          "name": "Rhydon",
-          "type": "Ground/Rock",
-          "base_experience": 170,
-          "abilities": [
-              "Lightning Rod",
-              "Rock Head"
-          ]
-      },
-      {
-          "id": 113,
-          "name": "Chansey",
-          "type": "Normal",
-          "base_experience": 395,
-          "abilities": [
-              "Natural Cure",
-              "Serene Grace"
-          ]
-      },
-      {
-          "id": 114,
-          "name": "Tangela",
-          "type": "Grass",
-          "base_experience": 87,
-          "abilities": [
-              "Chlorophyll",
-              "Leaf Guard"
-          ]
-      },
-      {
-          "id": 115,
-          "name": "Kangaskhan",
-          "type": "Normal",
-          "base_experience": 172,
-          "abilities": [
-              "Early Bird",
-              "Scrappy"
-          ]
-      },
-      {
-          "id": 116,
-          "name": "Horsea",
-          "type": "Water",
-          "base_experience": 59,
-          "abilities": [
-              "Swift Swim",
-              "Sniper"
-          ]
-      },
-      {
-          "id": 117,
-          "name": "Seadra",
-          "type": "Water",
-          "base_experience": 154,
-          "abilities": [
-              "Poison Point",
-              "Sniper"
-          ]
-      },
-      {
-          "id": 118,
-          "name": "Goldeen",
-          "type": "Water",
-          "base_experience": 64,
-          "abilities": [
-              "Swift Swim",
-              "Water Veil"
-          ]
-      },
-      {
-          "id": 119,
-          "name": "Seaking",
-          "type": "Water",
-          "base_experience": 158,
-          "abilities": [
-              "Swift Swim",
-              "Water Veil"
-          ]
-      },
-      {
-          "id": 120,
-          "name": "Staryu",
-          "type": "Water",
-          "base_experience": 68,
-          "abilities": [
-              "Illuminate",
-              "Natural Cure"
-          ]
-      },
-      {
-          "id": 121,
-          "name": "Starmie",
-          "type": "Water/Psychic",
-          "base_experience": 182,
-          "abilities": [
-              "Illuminate",
-              "Natural Cure"
-          ]
-      },
-      {
-          "id": 122,
-          "name": "Mr. Mime",
-          "type": "Psychic/Fairy",
-          "base_experience": 161,
-          "abilities": [
-              "Soundproof",
-              "Filter"
-          ]
-      },
-      {
-          "id": 123,
-          "name": "Scyther",
-          "type": "Bug/Flying",
-          "base_experience": 172,
-          "abilities": [
-              "Swarm",
-              "Technician"
-          ]
-      },
-      {
-          "id": 124,
-          "name": "Jynx",
-          "type": "Ice/Psychic",
-          "base_experience": 159,
-          "abilities": [
-              "Oblivious",
-              "Forewarn"
-          ]
-      },
-      {
-          "id": 125,
-          "name": "Electabuzz",
-          "type": "Electric",
-          "base_experience": 172,
-          "abilities": [
-              "Static",
-              null
-          ]
-      },
-      {
-          "id": 126,
-          "name": "Magmar",
-          "type": "Fire",
-          "base_experience": 173,
-          "abilities": [
-              "Flame Body",
-              null
-          ]
-      },
-      {
-          "id": 127,
-          "name": "Pinsir",
-          "type": "Bug",
-          "base_experience": 175,
-          "abilities": [
-              "Hyper Cutter",
-              "Mold Breaker"
-          ]
-      },
-      {
-          "id": 128,
-          "name": "Tauros",
-          "type": "Normal",
-          "base_experience": 149,
-          "abilities": [
-              "Intimidate",
-              "Anger Point"
-          ]
-      },
-      {
-          "id": 129,
-          "name": "Magikarp",
-          "type": "Water",
-          "base_experience": 40,
-          "abilities": [
-              "Swift Swim",
-              "Rattled"
-          ]
-      },
-      {
-          "id": 130,
-          "name": "Gyarados",
-          "type": "Water/Flying",
-          "base_experience": 189,
-          "abilities": [
-              "Intimidate",
-              "Moxie"
-          ]
-      },
-      {
-          "id": 131,
-          "name": "Lapras",
-          "type": "Water/Ice",
-          "base_experience": 187,
-          "abilities": [
-              "Water Absorb",
-              "Shell Armor"
-          ]
-      },
-      {
-          "id": 132,
-          "name": "Ditto",
-          "type": "Normal",
-          "base_experience": 101,
-          "abilities": [
-              "Limber",
-              null
-          ]
-      },
-      {
-          "id": 133,
-          "name": "Eevee",
-          "type": "Normal",
-          "base_experience": 65,
-          "abilities": [
-              "Run Away",
-              "Adaptability"
-          ]
-      },
-      {
-          "id": 134,
-          "name": "Vaporeon",
-          "type": "Water",
-          "base_experience": 184,
-          "abilities": [
-              "Water Absorb",
-              "Hydration"
-          ]
-      },
-      {
-          "id": 135,
-          "name": "Jolteon",
-          "type": "Electric",
-          "base_experience": 184,
-          "abilities": [
-              "Volt Absorb",
-              "Quick Feet"
-          ]
-      },
-      {
-          "id": 136,
-          "name": "Flareon",
-          "type": "Fire",
-          "base_experience": 184,
-          "abilities": [
-              "Flash Fire",
-              "Guts"
-          ]
-      },
-      {
-          "id": 137,
-          "name": "Porygon",
-          "type": "Normal",
-          "base_experience": 79,
-          "abilities": [
-              "Trace",
-              "Download"
-          ]
-      },
-      {
-          "id": 138,
-          "name": "Omanyte",
-          "type": "Rock/Water",
-          "base_experience": 71,
-          "abilities": [
-              "Swift Swim",
-              "Shell Armor"
-          ]
-      },
-      {
-          "id": 139,
-          "name": "Omastar",
-          "type": "Rock/Water",
-          "base_experience": 173,
-          "abilities": [
-              "Swift Swim",
-              "Shell Armor"
-          ]
-      },
-      {
-          "id": 140,
-          "name": "Kabuto",
-          "type": "Rock/Water",
-          "base_experience": 71,
-          "abilities": [
-              "Swift Swim",
-              "Battle Armor"
-          ]
-      },
-      {
-          "id": 141,
-          "name": "Kabutops",
-          "type": "Rock/Water",
-          "base_experience": 173,
-          "abilities": [
-              "Swift Swim",
-              "Battle Armor"
-          ]
-      },
-      {
-          "id": 142,
-          "name": "Aerodactyl",
-          "type": "Rock/Flying",
-          "base_experience": 180,
-          "abilities": [
-              "Rock Head",
-              "Pressure"
-          ]
-      },
-      {
-          "id": 143,
-          "name": "Snorlax",
-          "type": "Normal",
-          "base_experience": 189,
-          "abilities": [
-              "Immunity",
-              "Thick Fat"
-          ]
-      },
-      {
-          "id": 144,
-          "name": "Articuno",
-          "type": "Ice/Flying",
-          "base_experience": 261,
-          "abilities": [
-              "Pressure",
-              null
-          ]
-      },
-      {
-          "id": 145,
-          "name": "Zapdos",
-          "type": "Electric/Flying",
-          "base_experience": 261,
-          "abilities": [
-              "Pressure",
-              null
-          ]
-      },
-      {
-          "id": 146,
-          "name": "Moltres",
-          "type": "Fire/Flying",
-          "base_experience": 261,
-          "abilities": [
-              "Pressure",
-              null
-          ]
-      },
-      {
-          "id": 147,
-          "name": "Dratini",
-          "type": "Dragon",
-          "base_experience": 60,
-          "abilities": [
-              "Shed Skin",
-              null
-          ]
-      },
-      {
-          "id": 148,
-          "name": "Dragonair",
-          "type": "Dragon",
-          "base_experience": 147,
-          "abilities": [
-              "Shed Skin",
-              null
-          ]
-      },
-      {
-          "id": 149,
-          "name": "Dragonite",
-          "type": "Dragon/Flying",
-          "base_experience": 270,
-          "abilities": [
-              "Inner Focus",
-              "Multiscale"
-          ]
-      },
-      {
-          "id": 150,
-          "name": "Mewtwo",
-          "type": "Psychic",
-          "base_experience": 306,
-          "abilities": [
-              "Pressure",
-              null
-          ]
-      },
-      {
-          "id": 151,
-          "name": "Mew",
-          "type": "Psychic",
-          "base_experience": 270,
-          "abilities": [
-              "Synchronize",
-              null
-          ]
+    "pokemons": [
+      {
+        "id": 1,
+        "name": "Bulbasaur",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891758-001bulbasaur.png",
+        "type": "Grass/Poison",
+        "base_experience": 64,
+        "abilities": [
+          "Overgrow",
+          "Chlorophyll"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 2,
+        "name": "Ivysaur",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891759-002ivysaur.png",
+        "type": "Grass/Poison",
+        "base_experience": 142,
+        "abilities": [
+          "Overgrow",
+          "Chlorophyll"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": "Venusaur",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891760-003venusaur.png",
+        "type": "Grass/Poison",
+        "base_experience": 236,
+        "abilities": [
+          "Overgrow",
+          "Chlorophyll"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 4,
+        "name": "Charmander",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891761-004charmander.png",
+        "type": "Fire",
+        "base_experience": 62,
+        "abilities": [
+          "Blaze"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 5,
+        "name": "Charmeleon",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891762-005charmeleon.png",
+        "type": "Fire",
+        "base_experience": 142,
+        "abilities": [
+          "Blaze"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 6,
+        "name": "Charizard",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891763-006charizard.png",
+        "type": "Fire/Flying",
+        "base_experience": 240,
+        "abilities": [
+          "Blaze"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 7,
+        "name": "Squirtle",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/59/Pok%C3%A9mon_Squirtle_art.png",
+        "type": "Water",
+        "base_experience": 63,
+        "abilities": [
+          "Torrent",
+          "Rain Dish"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 8,
+        "name": "Wartortle",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891809-008wartortle.png",
+        "type": "Water",
+        "base_experience": 142,
+        "abilities": [
+          "Torrent",
+          "Rain Dish"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 9,
+        "name": "Blastoise",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891810-009blastoise.png",
+        "type": "Water",
+        "base_experience": 239,
+        "abilities": [
+          "Torrent",
+          "Rain Dish"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 10,
+        "name": "Caterpie",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892132-010caterpie.png",
+        "type": "Bug",
+        "base_experience": 39,
+        "abilities": [
+          "Shield Dust",
+          "Run Away"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 11,
+        "name": "Metapod",
+        "image": "https://vpokedex.com/wp-content/uploads/2022/12/Metapod-anime.png",
+        "type": "Bug",
+        "base_experience": 72,
+        "abilities": [
+          "Shed Skin"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 12,
+        "name": "Butterfree",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892298-012butterfree.png",
+        "type": "Bug/Flying",
+        "base_experience": 178,
+        "abilities": [
+          "Compound Eyes",
+          "Tinted Lens"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 13,
+        "name": "Weedle",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891817-013weedle.png",
+        "type": "Bug/Poison",
+        "base_experience": 39,
+        "abilities": [
+          "Shield Dust",
+          "Run Away"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 14,
+        "name": "Kakuna",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891818-014kakuna.png",
+        "type": "Bug/Poison",
+        "base_experience": 72,
+        "abilities": [
+          "Shed Skin"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 15,
+        "name": "Beedrill",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891819-015beedrill.png",
+        "type": "Bug/Poison",
+        "base_experience": 178,
+        "abilities": [
+          "Swarm",
+          "Sniper"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 16,
+        "name": "Pidgey",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891631-016pidgey.png",
+        "type": "Normal/Flying",
+        "base_experience": 50,
+        "abilities": [
+          "Keen Eye",
+          "Tangled Feet"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 17,
+        "name": "Pidgeotto",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891820-017pidgeotto.png",
+        "type": "Normal/Flying",
+        "base_experience": 122,
+        "abilities": [
+          "Keen Eye",
+          "Tangled Feet"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 18,
+        "name": "Pidgeot",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891821-018pidgeot.png",
+        "type": "Normal/Flying",
+        "base_experience": 239,
+        "abilities": [
+          "Keen Eye",
+          "Tangled Feet"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898244-019rattata.png",
+        "type": "Normal",
+        "base_experience": 51,
+        "abilities": [
+          "Run Away",
+          "Guts"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898245-020raticate.png",
+        "type": "Normal",
+        "base_experience": 145,
+        "abilities": [
+          "Run Away",
+          "Guts"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 21,
+        "name": "Spearow",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898246-021spearow.png",
+        "type": "Normal/Flying",
+        "base_experience": 52,
+        "abilities": [
+          "Keen Eye",
+          "Sniper"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 22,
+        "name": "Fearow",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898247-022fearow.png",
+        "type": "Normal/Flying",
+        "base_experience": 155,
+        "abilities": [
+          "Keen Eye",
+          "Sniper"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 23,
+        "name": "Ekans",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898239-023ekans.png",
+        "type": "Poison",
+        "base_experience": 58,
+        "abilities": [
+          "Intimidate",
+          "Shed Skin"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 24,
+        "name": "Arbok",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1895870-024arbok.png",
+        "type": "Poison",
+        "base_experience": 157,
+        "abilities": [
+          "Intimidate",
+          "Shed Skin"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 25,
+        "name": "Pikachu",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/0/6087/2437349-pikachu.png",
+        "type": "Electric",
+        "base_experience": 112,
+        "abilities": [
+          "Static"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 26,
+        "name": "Raichu",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898248-026raichu.png",
+        "type": "Electric",
+        "base_experience": 218,
+        "abilities": [
+          "Static"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 27,
+        "name": "Sandshrew",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891822-027sandshrew.png",
+        "type": "Ground",
+        "base_experience": 60,
+        "abilities": [
+          "Sand Veil",
+          "Sand Rush"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 28,
+        "name": "Sandslash",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891682-028sandslash.png",
+        "type": "Ground",
+        "base_experience": 158,
+        "abilities": [
+          "Sand Veil",
+          "Sand Rush"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 29,
+        "name": "Nidoran♀",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898252-029nidoran.png",
+        "type": "Poison",
+        "base_experience": 55,
+        "abilities": [
+          "Poison Point",
+          "Rivalry"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 30,
+        "name": "Nidorina",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898253-030nidorina.png",
+        "type": "Poison",
+        "base_experience": 128,
+        "abilities": [
+          "Poison Point",
+          "Rivalry"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 31,
+        "name": "Nidoqueen",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898254-031nidoqueen.png",
+        "type": "Poison/Ground",
+        "base_experience": 227,
+        "abilities": [
+          "Poison Point",
+          "Rivalry"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 32,
+        "name": "Nidoran♂",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898249-032nidoran.png",
+        "type": "Poison",
+        "base_experience": 55,
+        "abilities": [
+          "Poison Point",
+          "Rivalry"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 33,
+        "name": "Nidorino",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898250-033nidorino.png",
+        "type": "Poison",
+        "base_experience": 128,
+        "abilities": [
+          "Poison Point",
+          "Rivalry"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 34,
+        "name": "Nidoking",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898251-034nidoking.png",
+        "type": "Poison/Ground",
+        "base_experience": 227,
+        "abilities": [
+          "Poison Point",
+          "Rivalry"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 35,
+        "name": "Clefairy",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898255-035clefairy.png",
+        "type": "Fairy",
+        "base_experience": 68,
+        "abilities": [
+          "Cute Charm",
+          "Magic Guard"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 36,
+        "name": "Clefable",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898256-036clefable.png",
+        "type": "Fairy",
+        "base_experience": 129,
+        "abilities": [
+          "Cute Charm",
+          "Magic Guard"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 37,
+        "name": "Vulpix",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891638-037vulpix.png",
+        "type": "Fire",
+        "base_experience": 63,
+        "abilities": [
+          "Flash Fire",
+          "Drought"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 38,
+        "name": "Ninetales",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891823-038ninetales.png",
+        "type": "Fire",
+        "base_experience": 178,
+        "abilities": [
+          "Flash Fire",
+          "Drought"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 39,
+        "name": "Jigglypuff",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892299-039jigglypuff.png",
+        "type": "Normal/Fairy",
+        "base_experience": 95,
+        "abilities": [
+          "Cute Charm",
+          "Competitive"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 40,
+        "name": "Wigglytuff",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891680-040wigglytuff.png",
+        "type": "Normal/Fairy",
+        "base_experience": 196,
+        "abilities": [
+          "Cute Charm",
+          "Competitive"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 41,
+        "name": "Zubat",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891824-041zubat.png",
+        "type": "Poison/Flying",
+        "base_experience": 49,
+        "abilities": [
+          "Inner Focus",
+          "Infiltrator"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 42,
+        "name": "Golbat",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891826-042golbat.png",
+        "type": "Poison/Flying",
+        "base_experience": 159,
+        "abilities": [
+          "Inner Focus",
+          "Infiltrator"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 43,
+        "name": "Oddish",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891711-043oddish.png",
+        "type": "Grass/Poison",
+        "base_experience": 64,
+        "abilities": [
+          "Chlorophyll",
+          "Run Away"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 44,
+        "name": "Gloom",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898257-044gloom.png",
+        "type": "Grass/Poison",
+        "base_experience": 138,
+        "abilities": [
+          "Chlorophyll",
+          "Stench"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 45,
+        "name": "Vileplume",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898258-045vileplume.png",
+        "type": "Grass/Poison",
+        "base_experience": 221,
+        "abilities": [
+          "Chlorophyll",
+          "Effect Spore"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 46,
+        "name": "Paras",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898259-046paras.png",
+        "type": "Bug/Grass",
+        "base_experience": 57,
+        "abilities": [
+          "Effect Spore",
+          "Dry Skin"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 47,
+        "name": "Parasect",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898260-047parasect.png",
+        "type": "Bug/Grass",
+        "base_experience": 142,
+        "abilities": [
+          "Effect Spore",
+          "Dry Skin"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 48,
+        "name": "Venonat",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892300-048venonat.png",
+        "type": "Bug/Poison",
+        "base_experience": 61,
+        "abilities": [
+          "Compound Eyes",
+          "Tinted Lens"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 49,
+        "name": "Venomoth",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892301-049venomoth.png",
+        "type": "Bug/Poison",
+        "base_experience": 158,
+        "abilities": [
+          "Shield Dust",
+          "Tinted Lens"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892133-050diglett.png",
+        "type": "Ground",
+        "base_experience": 53,
+        "abilities": [
+          "Sand Veil",
+          "Arena Trap"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1894634-051dugtrio.png",
+        "type": "Ground",
+        "base_experience": 149,
+        "abilities": [
+          "Sand Veil",
+          "Arena Trap"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 52,
+        "name": "Meowth",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/2/26507/948297-meowth.jpg",
+        "type": "Normal",
+        "base_experience": 58,
+        "abilities": [
+          "Pickup",
+          "Technician"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 53,
+        "name": "Persian",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898262-053persian.png",
+        "type": "Normal",
+        "base_experience": 154,
+        "abilities": [
+          "Limber",
+          "Technician"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 54,
+        "name": "Psyduck",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892134-054psyduck.png",
+        "type": "Water",
+        "base_experience": 64,
+        "abilities": [
+          "Damp",
+          "Cloud Nine"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 55,
+        "name": "Golduck",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892302-055golduck.png",
+        "type": "Water",
+        "base_experience": 175,
+        "abilities": [
+          "Damp",
+          "Cloud Nine"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 56,
+        "name": "Mankey",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892135-056mankey.png",
+        "type": "Fighting",
+        "base_experience": 61,
+        "abilities": [
+          "Vital Spirit",
+          "Anger Point"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 57,
+        "name": "Primeape",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892055-057primeape.png",
+        "type": "Fighting",
+        "base_experience": 159,
+        "abilities": [
+          "Vital Spirit",
+          "Anger Point"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 58,
+        "name": "Growlithe",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891827-058growlithe.png",
+        "type": "Fire",
+        "base_experience": 70,
+        "abilities": [
+          "Intimidate",
+          "Flash Fire"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 59,
+        "name": "Arcanine",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891828-059arcanine.png",
+        "type": "Fire",
+        "base_experience": 194,
+        "abilities": [
+          "Intimidate",
+          "Flash Fire"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 60,
+        "name": "Poliwag",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891829-060poliwag.png",
+        "type": "Water",
+        "base_experience": 60,
+        "abilities": [
+          "Water Absorb",
+          "Damp"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 61,
+        "name": "Poliwhirl",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891830-061poliwhirl.png",
+        "type": "Water",
+        "base_experience": 135,
+        "abilities": [
+          "Water Absorb",
+          "Damp"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 62,
+        "name": "Poliwrath",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891831-062poliwrath.png",
+        "type": "Water/Fighting",
+        "base_experience": 230,
+        "abilities": [
+          "Water Absorb",
+          "Damp"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 63,
+        "name": "Abra",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891834-063abra.png",
+        "type": "Psychic",
+        "base_experience": 62,
+        "abilities": [
+          "Synchronize",
+          "Inner Focus"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 64,
+        "name": "Kadabra",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891835-064kadabra.png",
+        "type": "Psychic",
+        "base_experience": 140,
+        "abilities": [
+          "Synchronize",
+          "Inner Focus"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 65,
+        "name": "Alakazam",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891836-065alakazam.png",
+        "type": "Psychic",
+        "base_experience": 225,
+        "abilities": [
+          "Synchronize",
+          "Inner Focus"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 66,
+        "name": "Machop",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892303-066machop.png",
+        "type": "Fighting",
+        "base_experience": 61,
+        "abilities": [
+          "Guts",
+          "No Guard"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 67,
+        "name": "Machoke",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892304-067machoke.png",
+        "type": "Fighting",
+        "base_experience": 142,
+        "abilities": [
+          "Guts",
+          "No Guard"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 68,
+        "name": "Machamp",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892305-068machamp.png",
+        "type": "Fighting",
+        "base_experience": 227,
+        "abilities": [
+          "Guts",
+          "No Guard"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 69,
+        "name": "Bellsprout",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898263-069bellsprout.png",
+        "type": "Grass/Poison",
+        "base_experience": 60,
+        "abilities": [
+          "Chlorophyll",
+          "Run Away"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 70,
+        "name": "Weepinbell",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898264-070weepinbell.png",
+        "type": "Grass/Poison",
+        "base_experience": 137,
+        "abilities": [
+          "Chlorophyll",
+          "Run Away"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 71,
+        "name": "Victreebel",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898265-071victreebel.png",
+        "type": "Grass/Poison",
+        "base_experience": 221,
+        "abilities": [
+          "Chlorophyll",
+          "Run Away"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 72,
+        "name": "Tentacool",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892306-072tentacool.png",
+        "type": "Water/Poison",
+        "base_experience": 67,
+        "abilities": [
+          "Clear Body",
+          "Liquid Ooze"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 73,
+        "name": "Tentacruel",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892307-073tentacruel.png",
+        "type": "Water/Poison",
+        "base_experience": 180,
+        "abilities": [
+          "Clear Body",
+          "Liquid Ooze"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 74,
+        "name": "Geodude",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898243-074geodude.png",
+        "type": "Rock/Ground",
+        "base_experience": 60,
+        "abilities": [
+          "Rock Head",
+          "Sturdy"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 75,
+        "name": "Graveler",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898242-075graveler.png",
+        "base_experience": 137,
+        "abilities": [
+          "Rock Head",
+          "Sturdy"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 76,
+        "name": "Golem",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892308-076golem.png",
+        "type": "Rock/Ground",
+        "base_experience": 223,
+        "abilities": [
+          "Rock Head",
+          "Sturdy"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 77,
+        "name": "Ponyta",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892309-077ponyta.png",
+        "type": "Fire",
+        "base_experience": 82,
+        "abilities": [
+          "Run Away",
+          "Flash Fire"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 78,
+        "name": "Rapidash",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892310-078rapidash.png",
+        "type": "Fire",
+        "base_experience": 175,
+        "abilities": [
+          "Run Away",
+          "Flash Fire"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 79,
+        "name": "Slowpoke",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892136-079slowpoke.png",
+        "type": "Water/Psychic",
+        "base_experience": 63,
+        "abilities": [
+          "Oblivious",
+          "Own Tempo"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 80,
+        "name": "Slowbro",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892311-080slowbro.png",
+        "type": "Water/Psychic",
+        "base_experience": 172,
+        "abilities": [
+          "Oblivious",
+          "Own Tempo"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 81,
+        "name": "Magnemite",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892312-081magnemite.png",
+        "type": "Electric/Steel",
+        "base_experience": 65,
+        "abilities": [
+          "Magnet Pull",
+          "Sturdy"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 82,
+        "name": "Magneton",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892313-082magneton.png",
+        "type": "Electric/Steel",
+        "base_experience": 163,
+        "abilities": [
+          "Magnet Pull",
+          "Sturdy"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 83,
+        "name": "Farfetch'd",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891838-083farfetch_d.png",
+        "type": "Normal/Flying",
+        "base_experience": 123,
+        "abilities": [
+          "Keen Eye",
+          "Inner Focus"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 84,
+        "name": "Doduo",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892314-084doduo.png",
+        "type": "Normal/Flying",
+        "base_experience": 62,
+        "abilities": [
+          "Run Away",
+          "Early Bird"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 85,
+        "name": "Dodrio",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892315-085dodrio.png",
+        "type": "Normal/Flying",
+        "base_experience": 161,
+        "abilities": [
+          "Run Away",
+          "Early Bird"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 86,
+        "name": "Seel",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892316-086seel.png",
+        "type": "Water",
+        "base_experience": 65,
+        "abilities": [
+          "Thick Fat",
+          "Hydration"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 87,
+        "name": "Dewgong",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892317-087dewgong.png",
+        "type": "Water/Ice",
+        "base_experience": 166,
+        "abilities": [
+          "Thick Fat",
+          "Hydration"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 88,
+        "name": "Grimer",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898266-088grimer.png",
+        "type": "Poison",
+        "base_experience": 65,
+        "abilities": [
+          "Stench",
+          "Sticky Hold"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 89,
+        "name": "Muk",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892056-089muk.png",
+        "type": "Poison",
+        "base_experience": 175,
+        "abilities": [
+          "Stench",
+          "Sticky Hold"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 90,
+        "name": "Shellder",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892137-090shellder.png",
+        "type": "Water",
+        "base_experience": 61,
+        "abilities": [
+          "Shell Armor",
+          "Skill Link"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 91,
+        "name": "Cloyster",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892318-091cloyster.png",
+        "type": "Water/Ice",
+        "base_experience": 184,
+        "abilities": [
+          "Shell Armor",
+          "Skill Link"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 92,
+        "name": "Gastly",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891839-092gastly.png",
+        "type": "Ghost/Poison",
+        "base_experience": 62,
+        "abilities": [
+          "Levitate"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 93,
+        "name": "Haunter",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891840-093haunter.png",
+        "type": "Ghost/Poison",
+        "base_experience": 142,
+        "abilities": [
+          "Levitate"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 94,
+        "name": "Gengar",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891841-094gengar.png",
+        "type": "Ghost/Poison",
+        "base_experience": 225,
+        "abilities": [
+          "Levitate"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 95,
+        "name": "Onix",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891842-095onix.png",
+        "type": "Rock/Ground",
+        "base_experience": 77,
+        "abilities": [
+          "Rock Head",
+          "Sturdy"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 96,
+        "name": "Drowzee",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898267-096drowzee.png",
+        "type": "Psychic",
+        "base_experience": 66,
+        "abilities": [
+          "Insomnia",
+          "Forewarn"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 97,
+        "name": "Hypno",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898268-097hypno.png",
+        "type": "Psychic",
+        "base_experience": 169,
+        "abilities": [
+          "Insomnia",
+          "Forewarn"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 98,
+        "name": "Krabby",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891843-098krabby.png",
+        "type": "Water",
+        "base_experience": 65,
+        "abilities": [
+          "Hyper Cutter",
+          "Shell Armor"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 99,
+        "name": "Kingler",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891844-099kingler.png",
+        "type": "Water",
+        "base_experience": 166,
+        "abilities": [
+          "Hyper Cutter",
+          "Shell Armor"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 100,
+        "name": "Voltorb",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892678-100voltorb.png",
+        "type": "Electric",
+        "base_experience": 66,
+        "abilities": [
+          "Soundproof",
+          "Static"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 101,
+        "name": "Electrode",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892679-101electrode.png",
+        "type": "Electric",
+        "base_experience": 168,
+        "abilities": [
+          "Soundproof",
+          "Static"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 102,
+        "name": "Exeggcute",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898269-102exeggcute.png",
+        "type": "Grass",
+        "base_experience": 65,
+        "abilities": [
+          "Chlorophyll",
+          "Harvest"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 103,
+        "name": "Exeggutor",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898270-103exeggutor.png",
+        "type": "Grass",
+        "base_experience": 182,
+        "abilities": [
+          "Chlorophyll",
+          "Harvest"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 104,
+        "name": "Cubone",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891845-104cubone.png",
+        "type": "Ground",
+        "base_experience": 64,
+        "abilities": [
+          "Rock Head",
+          "Lightning Rod"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 105,
+        "name": "Marowak",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891846-105marowak.png",
+        "type": "Ground",
+        "base_experience": 149,
+        "abilities": [
+          "Rock Head",
+          "Lightning Rod"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 106,
+        "name": "Hitmonlee",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892680-106hitmonlee.png",
+        "type": "Fighting",
+        "base_experience": 159,
+        "abilities": [
+          "Limber",
+          "Reckless"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 107,
+        "name": "Hitmonchan",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892681-107hitmonchan.png",
+        "type": "Fighting",
+        "base_experience": 159,
+        "abilities": [
+          "Keen Eye",
+          "Iron Fist"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 108,
+        "name": "Lickitung",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898271-108lickitung.png",
+        "type": "Normal",
+        "base_experience": 77,
+        "abilities": [
+          "Own Tempo",
+          "Oblivious"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 109,
+        "name": "Koffing",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892138-109koffing.png",
+        "type": "Poison",
+        "base_experience": 68,
+        "abilities": [
+          "Levitate"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 110,
+        "name": "Weezing",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898274-110weezing.png",
+        "type": "Poison",
+        "base_experience": 172,
+        "abilities": [
+          "Levitate"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 111,
+        "name": "Rhyhorn",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892682-111rhyhorn.png",
+        "type": "Ground",
+        "base_experience": 69,
+        "abilities": [
+          "Lightning Rod",
+          "Rock Head"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 112,
+        "name": "Rhydon",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892683-112rhydon.png",
+        "type": "Ground",
+        "base_experience": 170,
+        "abilities": [
+          "Lightning Rod",
+          "Rock Head"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 113,
+        "name": "Chansey",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892684-113chansey.png",
+        "type": "Normal",
+        "base_experience": 395,
+        "abilities": [
+          "Natural Cure",
+          "Serene Grace"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 114,
+        "name": "Tangela",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898275-114tangela.png",
+        "type": "Grass",
+        "base_experience": 87,
+        "abilities": [
+          "Chlorophyll",
+          "Leaf Guard"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 115,
+        "name": "Kangaskhan",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898276-115kangaskhan.png",
+        "type": "Normal",
+        "base_experience": 172,
+        "abilities": [
+          "Early Bird",
+          "Scrappy"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 116,
+        "name": "Horsea",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891847-116horsea.png",
+        "type": "Water",
+        "base_experience": 59,
+        "abilities": [
+          "Swift Swim",
+          "Sniper"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 117,
+        "name": "Seadra",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891849-117seadra.png",
+        "type": "Water",
+        "base_experience": 154,
+        "abilities": [
+          "Swift Swim",
+          "Sniper"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 118,
+        "name": "Goldeen",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898280-118goldeen.png",
+        "type": "Water",
+        "base_experience": 64,
+        "abilities": [
+          "Water Veil",
+          "Swift Swim"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 119,
+        "name": "Seaking",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898282-119seaking.png",
+        "type": "Water",
+        "base_experience": 158,
+        "abilities": [
+          "Water Veil",
+          "Swift Swim"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 120,
+        "name": "Staryu",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892685-120staryu.png",
+        "type": "Water",
+        "base_experience": 68,
+        "abilities": [
+          "Illuminate",
+          "Natural Cure"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 121,
+        "name": "Starmie",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892686-121starmie.png",
+        "type": "Water/Psychic",
+        "base_experience": 182,
+        "abilities": [
+          "Illuminate",
+          "Natural Cure"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 122,
+        "name": "Mr. Mime",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898289-122mr._mime.png",
+        "type": "Psychic/Fairy",
+        "base_experience": 161,
+        "abilities": [
+          "Soundproof",
+          "Filter"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 123,
+        "name": "Scyther",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891850-123scyther.png",
+        "type": "Bug/Flying",
+        "base_experience": 100,
+        "abilities": [
+          "Swarm",
+          "Technician"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 124,
+        "name": "Jynx",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898290-124jynx.png",
+        "type": "Ice/Psychic",
+        "base_experience": 159,
+        "abilities": [
+          "Oblivious",
+          "Forewarn"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 125,
+        "name": "Electabuzz",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892687-125electabuzz.png",
+        "type": "Electric",
+        "base_experience": 172,
+        "abilities": [
+          "Static"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 126,
+        "name": "Magmar",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1895802-126magmar.png",
+        "type": "Fire",
+        "base_experience": 173,
+        "abilities": [
+          "Flame Body"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 127,
+        "name": "Pinsir",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891851-127pinsir.png",
+        "type": "Bug",
+        "base_experience": 175,
+        "abilities": [
+          "Hyper Cutter",
+          "Mold Breaker"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 128,
+        "name": "Tauros",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891852-128tauros.png",
+        "type": "Normal",
+        "base_experience": 172,
+        "abilities": [
+          "Intimidate",
+          "Anger Point"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 129,
+        "name": "Magikarp",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898291-129magikarp.png",
+        "type": "Water",
+        "base_experience": 40,
+        "abilities": [
+          "Swift Swim"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 130,
+        "name": "Gyarados",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891635-130gyarados.png",
+        "type": "Water/Flying",
+        "base_experience": 189,
+        "abilities": [
+          "Intimidate",
+          "Moxie"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 131,
+        "name": "Lapras",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891870-131lapras.png",
+        "type": "Water/Ice",
+        "base_experience": 187,
+        "abilities": [
+          "Water Absorb",
+          "Shell Armor"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 132,
+        "name": "Ditto",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891871-132ditto.png",
+        "type": "Normal",
+        "base_experience": 101,
+        "abilities": [
+          "Limber"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 133,
+        "name": "Eevee",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891681-133eevee.png",
+        "type": "Normal",
+        "base_experience": 65,
+        "abilities": [
+          "Run Away",
+          "Adaptability"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 134,
+        "name": "Vaporeon",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891872-134vaporeon.png",
+        "type": "Water",
+        "base_experience": 184,
+        "abilities": [
+          "Water Absorb",
+          "Hydration"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 135,
+        "name": "Jolteon",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891873-135jolteon.png",
+        "type": "Electric",
+        "base_experience": 184,
+        "abilities": [
+          "Volt Absorb",
+          "Quick Feet"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 136,
+        "name": "Flareon",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891874-136flareon.png",
+        "type": "Fire",
+        "base_experience": 184,
+        "abilities": [
+          "Flash Fire",
+          "Guts"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 137,
+        "name": "Porygon",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898292-137porygon.png",
+        "type": "Normal",
+        "base_experience": 79,
+        "abilities": [
+          "Trace",
+          "Download"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 138,
+        "name": "Omanyte",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892688-138omanyte.png",
+        "type": "Rock/Water",
+        "base_experience": 71,
+        "abilities": [
+          "Swift Swim",
+          "Shell Armor"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 139,
+        "name": "Omastar",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892689-139omastar.png",
+        "type": "Rock/Water",
+        "base_experience": 173,
+        "abilities": [
+          "Swift Swim",
+          "Shell Armor"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 140,
+        "name": "Kabuto",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891959-140kabuto.png",
+        "type": "Rock/Water",
+        "base_experience": 71,
+        "abilities": [
+          "Swift Swim",
+          "Battle Armor"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 141,
+        "name": "Kabutops",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891960-141kabutops.png",
+        "type": "Rock/Water",
+        "base_experience": 173,
+        "abilities": [
+          "Swift Swim",
+          "Battle Armor"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 142,
+        "name": "Aerodactyl",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891961-142aerodactyl.png",
+        "type": "Rock/Flying",
+        "base_experience": 180,
+        "abilities": [
+          "Rock Head",
+          "Pressure"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 143,
+        "name": "Snorlax",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/0/4986/406919-143snorlax.png",
+        "type": "Normal",
+        "base_experience": 189,
+        "abilities": [
+          "Immunity",
+          "Thick Fat"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 144,
+        "name": "Articuno",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892690-144articuno.png",
+        "type": "Ice/Flying",
+        "base_experience": 261,
+        "abilities": [
+          "Pressure"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 145,
+        "name": "Zapdos",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892691-145zapdos.png",
+        "type": "Electric/Flying",
+        "base_experience": 261,
+        "abilities": [
+          "Pressure"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 146,
+        "name": "Moltres",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891710-146moltres.png",
+        "type": "Fire/Flying",
+        "base_experience": 261,
+        "abilities": [
+          "Pressure"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 147,
+        "name": "Dratini",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1910790-147dratini_ag_anime.png",
+        "type": "Dragon",
+        "base_experience": 67,
+        "abilities": [
+          "Shed Skin"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 148,
+        "name": "Dragonair",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891876-148dragonair.png",
+        "type": "Dragon",
+        "base_experience": 144,
+        "abilities": [
+          "Shed Skin"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 149,
+        "name": "Dragonite",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892692-149dragonite.png",
+        "type": "Dragon/Flying",
+        "base_experience": 270,
+        "abilities": [
+          "Inner Focus",
+          "Multiscale"
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 150,
+        "name": "Mewtwo",
+        "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1895869-150mewtwo.png",
+        "type": "Psychic",
+        "base_experience": 306,
+        "abilities": [
+          "Pressure"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
+      },
+      {
+        "id": 151,
+        "name": "Mew",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Pok%C3%A9mon_Mew_art.png",
+        "type": "Psychic",
+        "base_experience": 270,
+        "abilities": [
+          "Synchronize"
+          
+        ],
+        "comments": [
+
+        ],
+        "likes": {
+          "count": 0
+        }
       }
-  ]
-}
+    ],
+    "comments": [
+
+    ],
+    "likes": {
+      "count": 0
+    }
+  }
