@@ -1,44 +1,34 @@
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './NavBar';
-import React, { useState, useEffect } from 'react'
-import Home from './Home'
-import { Route, Routes, BrowserRouter } from "react-router-dom"
+import Home from './Home';
 import PokemonPage from './PokemonPage';
-import './styles.css'
-import ReadMe from './ReadMe'
-import About from './About'
+import About from './About';
+import ReadMe from './ReadMe';
+import './styles.css';
 
 function App() {
-
-  const [pokemons, setPokemons] = useState([])
-  const [selectedPokemon, setSelectedPokemon] = useState([])
-
+  const [pokemons, setPokemons] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3001/pokemons")
-  .then(r => r.json())
-  .then(data => {setPokemons(data)
-  console.log(pokemons)})
-}, [])
-
-function handleClick(pokemon) {
-  setSelectedPokemon(pokemon)
-  console.log( "data",selectedPokemon)
-
-}
+      .then(response => response.json())
+      .then(data => setPokemons(data));
+  }, []);
 
   return (
-  <div className="app">
-    <BrowserRouter> 
-    <NavBar />
-    <Routes>
-      <Route exact path="/" element={<Home handleClick={handleClick} pokemons={pokemons} selectedPokemon={selectedPokemon}/>}/>
-      <Route exact path="/PokemonPage" element={<PokemonPage selectedPokemon={selectedPokemon} pokemons={pokemons}/>}/>
-      <Route exact path="/about" element={<About pokemons={pokemons}/>}/>
-      <Route exact path="/readme" element={<ReadMe pokemons={pokemons}/>}/>
-    </Routes>
-    </BrowserRouter>
-  </div>
+    <div className="app">
+      <BrowserRouter> 
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home pokemons={pokemons} />} />
+          <Route path="/pokemon/:pokemonId" element={<PokemonPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/readme" element={<ReadMe />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
-export default App
+export default App;
