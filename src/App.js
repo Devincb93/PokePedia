@@ -9,6 +9,7 @@ import './styles.css';
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
+  const [newPokemon, setNewPokemon] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3001/pokemons")
@@ -21,8 +22,8 @@ function App() {
       <BrowserRouter> 
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home pokemons={pokemons} />} />
-          <Route path="/pokemon/:pokemonId" element={<PokemonPage />} />
+          <Route path="/" element={<Home pokemons={pokemons} setPokemons={setPokemons} />} />
+          <Route path="/pokemon/:pokemonId" element={<PokemonPage pokemons={pokemons}/>} />
           <Route path="/about" element={<About />} />
           <Route path="/readme" element={<ReadMe />} />
         </Routes>

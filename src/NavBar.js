@@ -1,6 +1,6 @@
 
 import { NavLink } from 'react-router-dom';
-import Home from './Home'
+
 
 function NavBar() {
     return (
