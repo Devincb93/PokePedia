@@ -9,7 +9,7 @@ import './styles.css';
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
-  const [newPokemon, setNewPokemon] = useState([]);
+  
 
   useEffect(() => {
     fetch("http://localhost:3001/pokemons")

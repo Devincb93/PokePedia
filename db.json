@@ -1,7 +1,7 @@
 {
   "pokemons": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Bulbasaur",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891758-001bulbasaur.png",
       "type": "Grass/Poison",
@@ -10,7 +10,7 @@
       "about": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Ivysaur",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891759-002ivysaur.png",
       "type": "Grass/Poison",
@@ -19,7 +19,7 @@
       "about": "Ivysaur is a quadrupedal amphibian Pokémon that has blue-green skin with darker patches. On top of its head are pointed ears with black insides and it has narrow red eyes. Ivysaur has a short, rounded snout with a wide mouth and two pointed teeth in its upper jaw. Each of its feet has three claws on them. The bulb on its back has bloomed into a large pink bud. A short brown trunk surrounded by leafy green fronds supports the bud."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Venusaur",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891760-003venusaur.png",
       "type": "Grass/Poison",
@@ -28,7 +28,7 @@
       "about": "Venusaur is a squat, quadrupedal amphibian Pokémon with bumpy, blue-green skin. It has small, circular red eyes and a short, blunt snout. Its mouth is wide with two pointed teeth in the upper jaw and four in the lower jaw. On top of its head are small, pointed ears with reddish-pink insides. It has three clawed toes on each foot. The bud on its back has bloomed into a large pink, white-spotted flower. The flower is supported by a thick, brown trunk surrounded by green fronds. A female Venusaur has a seed in the center of its flower."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Charmander",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891761-004charmander.png",
       "type": "Fire",
@@ -37,7 +37,7 @@
       "about": "Charmander is a bipedal, reptilian Pokémon with a primarily orange body and blue eyes. Its underside from the chest down and the soles of its feet are cream-colored. It has two small fangs visible in its upper jaw and two smaller fangs in its lower jaw. A fire burns at the tip of this Pokémon's slender tail and has blazed there since Charmander's birth."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Charmeleon",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891762-005charmeleon.png",
       "type": "Fire",
@@ -46,7 +46,7 @@
       "about": "Charmeleon is a bipedal, reptilian Pokémon. It has dark red scales and a cream underside from the chest down. It has blue eyes and a long snout with a slightly hooked tip. On the back of its head is a single horn-like protrusion. It has relatively long arms with three sharp claws. Its short legs have plantigrade feet with three claws and cream-colored soles. The tip of its long, powerful tail has a flame burning on it. The temperature rises to unbearable levels if Charmeleon swings its tail."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Charizard",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891763-006charizard.png",
       "type": "Fire/Flying",
@@ -55,7 +55,7 @@
       "about": "Charizard is a draconic, bipedal Pokémon. It is primarily orange with a cream underside from the chest to the tip of its tail. It has a long neck, small blue eyes, slightly raised nostrils, and two horn-like structures protruding from the back of its rectangular head. There are two fangs visible in its upper jaw when its mouth is closed. Two large wings with blue-green undersides sprout from its back, and a horn-like appendage juts out from the top of the third joint of each wing. A single wing-finger is visible through the center of each wing membrane. Charizard's arms are short and skinny compared to its robust belly, and each limb has three white claws. It has stocky legs with cream-colored soles on each of its plantigrade feet. The tip of its long, tapering tail burns with a sizable flame, which can intensify to a blue flame if Charizard is irritated."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Squirtle",
       "image": "https://upload.wikimedia.org/wikipedia/en/5/59/Pok%C3%A9mon_Squirtle_art.png",
       "type": "Water",
@@ -64,7 +64,7 @@
       "about": "Squirtle is a small reptilian Pokémon that resembles a light-blue turtle. While it typically walks on its two short legs, it has been shown to run on all fours in Super Smash Bros. Brawl. It has large, purplish or reddish eyes and a slightly hooked upper lip. Each of its hands and feet have three pointed digits. The end of its long, squirrel-like tail curls inward. Its body is encased by a tough shell that forms and hardens after birth. This shell is brown on the top, pale yellow on the bottom, and has a thick white ridge between the two halves."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Wartortle",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891809-008wartortle.png",
       "type": "Water",
@@ -73,7 +73,7 @@
       "about": "Wartortle is a bipedal, indigo reptilian Pokémon similar to a turtle. It has brown eyes, a dark blue streak on each cheek, and two sharp teeth protruding from its upper jaw. It has three clawed fingers and pointed toes. On each side of its head are feather-like ears covered in pale blue fur. A brown shell with a pale yellow underside encases its body. A thick, white rim separates the upper and lower halves of the shell. An older Wartortle may have scars and algae growing on its shell. Poking out of the bottom of the shell is a thick, wavy tail that also has light blue fur and cannot be fully withdrawn into its shell. Its tail fur will darken with age. Its tail is a popular symbol of longevity and good luck, making this Pokémon popular with the elderly."
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Blastoise",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891810-009blastoise.png",
       "type": "Water",
@@ -82,7 +82,7 @@
       "about": "Blastoise is a large, bipedal turtle Pokémon. Its body is blue and is mostly hidden by its tough, brown shell. This shell has a cream-colored underside and a white ridge encircling its arms and separating the upper and lower halves. Two powerful water cannons/jet nozzles reside at the top of its shell over its shoulders. These cannons can be extended or withdrawn. Blastoise's head has triangular ears that are black on the inside, small brown eyes, and a cream-colored lower jaw. Its arms are thick, and it has three claws on each hand. Its feet have three claws on the front and one on the back. Poking out of the bottom of its shell is a stubby tail."
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Caterpie",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892132-010caterpie.png",
       "type": "Bug",
@@ -91,7 +91,7 @@
       "about": "Caterpie is an insect Pokémon that resembles a green caterpillar with a yellow underside and teardrop-shaped tail. There are yellow ring-shaped markings down the sides of its segmented body, which resemble its eyes and are meant to scare off predators. Its most notable characteristic is the bright red antenna (osmeterium) on its head, which releases a stench to repel predators. Despite these features and its camouflage in green foliage, Caterpie is often preyed upon by Flying-type Pokémon. Its four tiny feet are tipped with suction cups, permitting this Pokémon to scale most surfaces with minimal effort."
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Metapod",
       "image": "https://vpokedex.com/wp-content/uploads/2022/12/Metapod-anime.png",
       "type": "Bug",
@@ -100,7 +100,7 @@
       "about": "Metapod is an insect Pokémon that resembles a green chrysalis. Its body is crescent-shaped with several segments making up the lower point. The front of Metapod's shell resembles a face with heavy-lidded eyes and a sharply pointed nose. The back of its shell consists of several geometrically shaped portions and projections."
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Butterfree",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892298-012butterfree.png",
       "type": "Bug/Flying",
@@ -109,7 +109,7 @@
       "about": "Butterfree is a lepidopteran insect Pokémon which resembles a vaguely anthropomorphic butterfly with a purple body. Unlike true insects, it only has two body segments and four light blue legs. The upper pair of its legs resemble small, three-fingered hands, while the lower pair resembles long, digit-less feet. Butterfree has two black antennae, a light blue snout with two fangs underneath, and large, red compound eyes. Its two pairs of wings are white with black venation. Two oval scales on a female Butterfree's lower wings are black, but they are white on a male."
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Weedle",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891817-013weedle.png",
       "type": "Bug/Poison",
@@ -118,7 +118,7 @@
       "about": "Weedle is a larval insect Pokémon with a segmented body ranging in color from yellow to reddish-brown. Each segment of its body is a sphere. It has a bulbous red nose, two small, black eyes on its face and two spherical feet on each body segment. The combination of red and yellow in its color scheme creates a bright warning to predators that it is poisonous. Weedle has a conical, two-inch (five centimeter) venomous stinger on its head and a barbed one on its tail. Weedle can retaliate against attackers and those who step on it with its strong toxin. It can distinguish its favorite kinds of leaves using its acute sense of smell. As a young Bug-type Pokémon, its daily appetite for leaves matches its weight. Weedle can be found in temperate forests and usually hides in grass, bushes, and under the leaves it eats."
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Kakuna",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891818-014kakuna.png",
       "type": "Bug/Poison",
@@ -127,7 +127,7 @@
       "about": "Kakuna is a yellow, insect cocoon-like Pokémon. Kakuna has a dome-shaped head and black, triangular eyes with glowing white pupils. It has two scythe-like arms in the middle of its body. When it comes close to evolving, its body gives off heat that makes it warm to the touch. Kakuna remains virtually immobile and waits for evolution, often hanging from tree branches by long strands of silk. When attacked, however, it can extend its poison barbs. Kakuna nests in temperate forests and misty wooded areas. Occasionally, it will also nest at the mouth of tunnels and caves, as seen in Pokémon Snap."
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Beedrill",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891819-015beedrill.png",
       "type": "Bug/Poison",
@@ -136,7 +136,7 @@
       "about": "Beedrill is an insect Pokémon which mostly resembles a bipedal, yellow wasp; however, it only has four legs instead of six and lacks pigment pits. Beedrill's head is round with a slightly pointed mouth; large, red eyes; and black antennae with a sharp bend in the middle. Its forelegs are tipped with long, conical stingers. It stands on its other two legs, which are long, segmented, and insectoid in shape. Beedrill has two pairs of rounded, veined wings and another stinger on its yellow-and-black striped abdomen. The abdominal stinger contains Beedrill's most potent poison."
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Pidgey",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891631-016pidgey.png",
       "type": "Normal/Flying",
@@ -145,7 +145,7 @@
       "about": "Pidgey is a small, plump-bodied avian Pokémon. It is primarily brown with a cream-colored face, underside, and flight feathers. On top of its head is a short crest of three tufts. The center crest feathers are brown and the outer two tufts are cream-colored. Just under its crest are its narrow eyes which have white sclera and pupil along with its black irises. Angular black marking extend from behind its eyes and continue down its cheeks. It has a short, stubby beak and feet with two toes in front and one in back. Both its beak and feet are a grayish-pink. It has a short, brown tail made of three feathers."
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Pidgeotto",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891820-017pidgeotto.png",
       "type": "Normal/Flying",
@@ -154,7 +154,7 @@
       "about": "Pidgeotto is a raptor-like avian Pokémon. It is covered with brown feathers, has a cream-colored face, underside, and flight feathers. It has a crest of pinkish-red feathers on its head and black, angular markings behind its black eyes. The plumage of its tail has alternating red and yellow feathers with ragged tips. Pidgeotto's beak and legs are pink. Two of its toes point forward, while one points backward. Additionally, it has powerful, sharp talons that it uses to grasp prey."
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Pidgeot",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891821-018pidgeot.png",
       "type": "Normal/Flying",
@@ -163,7 +163,7 @@
       "about": "Pidgeot is an avian Pokémon with large wings, sharp talons, and a short, hooked beak. Its glossy plumage is mostly brown with cream-colored underparts and flight feathers. Its head has a decorated crest that is nearly as long as its body. The center feathers of its crest are yellow, while the outer feathers are red. The fan-like feathers of its tail are red or brown. Its beak and legs are pink, and there are three forward-facing toes and one backward-facing toe on each foot. Behind each eye is an angular black marking."
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Rattata",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898244-019rattata.png",
       "type": "Normal",
@@ -172,7 +172,7 @@
       "about": "Rattata is a small, quadrupedal rodent Pokémon. It has purple fur with a cream-colored face, paws, and underbelly. It has narrow eyes containing white sclera and pupil with red irises, rounded ears with cream-colored insides, and a single whisker on each cheek. Its long tail is tightly curled at the end. Its most notable feature is its large teeth. Like most rodents, its teeth grow continuously throughout its life and must be worn down by gnawing. Females will have shorter whiskers."
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Raticate",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1898245-020raticate.png",
       "type": "Normal",
@@ -181,7 +181,7 @@
       "about": "Raticate is a large, rodent-like Pokémon. Although it is often depicted on its hind legs, it is a quadruped. It is primarily tawny-colored with a cream underside. It has narrow black eyes, ears with ragged edges and dark insides, and large incisors that grow constantly. There are three whiskers on each side of its face, which it uses to maintain balance. It has short arms with three-fingered hands and webbed feet with three toes. The webbing on its feet allows it to swim. Its tail is long and scaly. Females will have shorter whiskers."
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Spearow",
       "image": "https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891778-021spearow.png",
       "type": "Normal/Flying",
@@ -190,7 +190,7 @@
       "about": "Raticate is a large, rodent-like Pokémon. Although it is often depicted on its hind legs, it is a quadruped. It is primarily tawny-colored with a cream underside. It has narrow black eyes, ears with ragged edges and dark insides, and large incisors that grow constantly. There are three whiskers on each side of its face, which it uses to maintain balance. It has short arms with three-fingered hands and webbed feet with three toes. The webbing on its feet allows it to swim. Its tail is long and scaly. Females will have shorter whiskers."
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Fearow",
       "image": "https://archives.bulbagarden.net/media/upload/thumb/9/92/0022Fearow.png/250px-0022Fearow.png",
       "type": "Normal/Flying",
@@ -199,7 +199,7 @@
       "about": "Fearow is a large, mostly brown avian Pokémon with a vulturine neck and broad, powerful wings. It has a long, pointed, pink beak and a decorative red coxcomb on top of its head. Its narrow eyes have very small pupils and do not appear to have colored irises. It has shaggy, feathers at the base of its neck and covering the upper portion of its wings. These feathers are cream-colored, as are the tips of its flight feathers. Its sharp-clawed talons are pink, with three toes pointing forward and one pointing backward."
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Ekans",
       "image": "https://archives.bulbagarden.net/media/upload/thumb/d/d2/0023Ekans.png/250px-0023Ekans.png",
       "type": "Poison",
@@ -208,7 +208,7 @@
       "about": "Ekans is a purple, serpentine Pokémon. Its eyes, underbelly, the thick stripe around its neck, and rattle are yellow. Ekans has three pairs of black lines encircling its body, as well as another line that connects to each slit-pupiled eye and curves toward its nose. Its large mouth has a round, pink tongue and no visible teeth. While painful, a newborn Ekans's bite is not venomous. This Pokémon grows longer with age."
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Arbok",
       "image": "https://archives.bulbagarden.net/media/upload/thumb/5/51/0024Arbok.png/250px-0024Arbok.png",
       "type": "Poison",

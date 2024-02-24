@@ -11,32 +11,13 @@ function Home({ pokemons, setPokemons}) {
     "base_experience": "",
     "abilities": "",
     "about": ""
-
-
 });
-
-  // function handleNewName(e) {
-  //   setNewPokemon(e.target.value)
-  // }
-  // function handleNewImage(e) {
-  //   setNewPokemon(e.target.value)
-  // }
-  // function handleNewType(e) {
-  //   setNewPokemon(e.target.value)
-  // }
-  // function handleNewBaseExp(e) {
-  //   setNewPokemon(e.target.value)
-  // }
-  // function handleNewAbilities(e) {
-  //   setNewPokemon(e.target.value)
-  // }
- 
 
   function handleSubmit(e) {
     e.preventDefault();
 
-    const  newPokemonId = pokemons.length > 0 ? Math.max(...pokemons.map(pokemon => pokemon.id)) + 1 : 151 + 1;
-    const  newPokemonsOId = {...newPokemon, id: newPokemonId};
+    const  newPokemonId = pokemons.length >= 0 ? Math.max(...pokemons.map(pokemon => pokemon.id)) + 1 : pokemons.length + 1;
+    const  newPokemonsOId = {...newPokemon, id: newPokemonId.toString()};
     
     setPokemons([...pokemons, newPokemonsOId])
     fetch('http://localhost:3001/pokemons', {
@@ -44,8 +25,19 @@ function Home({ pokemons, setPokemons}) {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(newPokemon)
+      body: JSON.stringify(newPokemonsOId)
     })
+   .then (() => {
+    setNewPokemon({
+      "id": "",
+      "name": "",
+      "image": "",
+      "type": "",
+      "base_experience": "",
+      "abilities": "",
+      "about": ""
+    })
+   })
     
   }
 
