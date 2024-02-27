@@ -3,40 +3,30 @@ import { Link } from 'react-router-dom';
 
 function Home({ pokemons, setPokemons}) {
 
-  const [newPokemon, setNewPokemon] = useState({
-    "id": "",
-    "name": "",
-    "image": "",
-    "type": "",
-    "base_experience": "",
-    "abilities": "",
-    "about": ""
-});
+ 
+
+  const [newPokemon, setNewPokemon] = useState({});
+
+  function addNewPokemon(newPokemon) {
+    setPokemons(...pokemons, newPokemon)
+  }
 
   function handleSubmit(e) {
-    e.preventDefault();
-
-    const  newPokemonId = pokemons.length >= 0 ? Math.max(...pokemons.map(pokemon => pokemon.id)) + 1 : pokemons.length + 1;
-    const  newPokemonsOId = {...newPokemon, id: newPokemonId.toString()};
     
-    setPokemons([...pokemons, newPokemonsOId])
+
+    // const  newPokemonId = pokemons.length >= 0 ? Math.max(...pokemons.map(pokemon => pokemon.id)) + 1 : pokemons.length + 1;
+    // const  newPokemonsOId = {...newPokemon, id: newPokemonId.toString()};
+    
+    setPokemons([...pokemons, newPokemon])
     fetch('http://localhost:3001/pokemons', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(newPokemonsOId)
-    })
-   .then (() => {
-    setNewPokemon({
-      "id": "",
-      "name": "",
-      "image": "",
-      "type": "",
-      "base_experience": "",
-      "abilities": "",
-      "about": ""
-    })
+      body: JSON.stringify(newPokemon)})
+    .then(resp => resp.json())
+    .then ((data) => {
+    setPokemons(data)
    })
     
   }

@@ -215,6 +215,15 @@
       "base_experience": "157",
       "abilities": "Shed Skin",
       "about": "Arbok is a serpentine Pokémon that resembles a cobra. It has narrow eyes and several sharp teeth. Just below its head is a large hood with a face-like pattern. This pattern has over 20 possible variations. The pattern typically has two red and yellow eyespots outlined in black, a wide black streak resembling an upturned mouth, and a black V-shaped stripe above the eyespots."
+    },
+    {
+      "id": "c83e",
+      "name": "Pikachu",
+      "image": "https://archives.bulbagarden.net/media/upload/thumb/4/4a/0025Pikachu.png/375px-0025Pikachu.png",
+      "type": "Electric",
+      "base_experience": "82",
+      "abilities": "Static",
+      "about": "Pikachu is a short, chubby rodent Pokémon. It is covered in yellow fur with two horizontal brown stripes on its back. It has a small mouth, long, pointed ears with black tips, and brown eyes. Each cheek is a red circle that contains a pouch for electricity storage. It has short forearms with five fingers on each paw, and its feet each have three toes. At the base of its lightning bolt-shaped tail is a patch of brown fur. A female will have a V-shaped notch at the end of its tail, which looks like the top of a heart. It is classified as a quadruped, but it has been known to stand and walk on its hind legs. Therefore Pikachu is a facultative biped."
     }
   ]
 }
