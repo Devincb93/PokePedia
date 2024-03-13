@@ -15,6 +15,19 @@ function Home({ pokemons, setPokemons, addNewPokemon}) {
 
   function handleSubmit(e) {
     e.preventDefault()
+    if ((newPokemon.name.length > 1)
+        &&
+        (newPokemon.image.length > 1)
+        &&
+        (newPokemon.type.length > 1) 
+        &&
+        (newPokemon.base_experience.length > 1)
+        && 
+        (newPokemon.about.length > 1)
+        && 
+        (newPokemon.abilities.length > 1))   {
+     
+    
     fetch('http://localhost:3001/pokemons', {
       method: 'POST',
       headers: {
@@ -32,12 +45,10 @@ function Home({ pokemons, setPokemons, addNewPokemon}) {
       base_experience: "",
       abilities: "",
       about: ""
-    })
+    })}
   }
 
    function handleChange(e) {
-   
-  
     const { name, value } = e.target;
     setNewPokemon(prevState => ({
       ...prevState,
