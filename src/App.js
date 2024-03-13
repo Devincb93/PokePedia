@@ -9,6 +9,8 @@ import './styles.css';
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
+
+ 
   
 
   useEffect(() => {
@@ -17,12 +19,16 @@ function App() {
       .then(data => setPokemons(data));
   }, []);
 
+ function addNewPokemon(createdPokemon) {
+    setPokemons([...pokemons, createdPokemon])
+  }
+
   return (
     <div className="app">
       <BrowserRouter> 
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home pokemons={pokemons} setPokemons={setPokemons} />} />
+          <Route path="/" element={<Home pokemons={pokemons} setPokemons={setPokemons} addNewPokemon={addNewPokemon} />} />
           <Route path="/pokemon/:pokemonId" element={<PokemonPage pokemons={pokemons}/>} />
           <Route path="/about" element={<About />} />
           <Route path="/readme" element={<ReadMe />} />
