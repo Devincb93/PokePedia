@@ -29,9 +29,6 @@ function PokemonPage() {
       <div className="poke-page-ability-div">
         <h3>{pokemon.abilities}</h3>
         <p>{pokemon.about}</p>
-      {/* {pokemon.abilities.map((ability, index) => (
-        <h3 key={index}>{ability}</h3>
-      ))} */}
       </div>
     </div>
   );
