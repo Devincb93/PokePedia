@@ -55,6 +55,7 @@ function Home({ pokemons, setPokemons, addNewPokemon}) {
       [name]: value,
     }))
 }
+console.log(pokemons)
   return (
     <div className="home-div">
       <h1>Home</h1>

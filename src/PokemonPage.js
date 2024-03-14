@@ -2,25 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 
-
-function PokemonPage() {
+function PokemonPage({pokemons}) {
   const [pokemon, setPokemon] = useState(null);
   const { pokemonId } = useParams();
   
 
   useEffect(() => {
-    fetch(`http://localhost:3001/pokemons/${pokemonId}`)
-      .then(response => response.json())
-      .then(data => setPokemon(data));
-  }, [pokemonId]);
-  
-  
+    const singlePokemon = pokemons.find((pokemon) => pokemon.id === pokemonId)
+    setPokemon(singlePokemon)
+}, [pokemonId]);
 
-  
-
-
-  if (!pokemon) return <h1>Loading...</h1>;
-
+  if (!pokemon) return <h1>Please wait...</h1>;
   return (
     <div className="poke-page-div">
       <h1>{pokemon.name}</h1>

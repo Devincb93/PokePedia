@@ -8,24 +8,25 @@ import ReadMe from './ReadMe';
 import './styles.css';
 
 function App() {
-  const [pokemons, setPokemons] = useState([]);
   
+  const [pokemons, setPokemons] = useState([]);
+ 
   useEffect(() => {
     fetch("http://localhost:3001/pokemons")
       .then(response => response.json())
       .then(data => setPokemons(data));
   }, []);
 
- function addNewPokemon(createdPokemon) {
+  function addNewPokemon(createdPokemon) {
     setPokemons([...pokemons, createdPokemon])
   }
-
+ 
   return (
     <div className="app">
       <BrowserRouter> 
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home pokemons={pokemons} setPokemons={setPokemons} addNewPokemon={addNewPokemon} />} />
+          <Route path="/"  element={<Home addNewPokemon={addNewPokemon}  pokemons={pokemons} />} />
           <Route path="/pokemon/:pokemonId" element={<PokemonPage pokemons={pokemons}/>} />
           <Route path="/about" element={<About />} />
           <Route path="/readme" element={<ReadMe />} />
